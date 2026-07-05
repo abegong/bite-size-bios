@@ -4,5 +4,6 @@ date = "{{ .Date }}"
 draft = true
 summary = ""
 tags = []
-topics = []
+categories = []
+archives = []
 +++

@@ -5,7 +5,8 @@ date = 2026-07-05
 draft = false
 summary = "The story of Elizabeth Báthory, the Blood Countess, and the contested line between atrocity, legend, and political conspiracy."
 tags = ["early-modern-europe", "hungarian-history", "legend"]
-topics = ["power", "crime", "historical-memory"]
+categories = ["power", "crime", "historical-memory"]
+archives = ["2026/07"]
 +++
 
 ## The Hook: The Blood Countess — or the Victim of a Conspiracy?
@@ -119,4 +120,4 @@ Four centuries after her death, Elizabeth Báthory remains imprisoned in the cas
 
 ---
 
-*Written for the 10-Minute Biographies project.*
+*Written for the Bite-Size Bios project.*
