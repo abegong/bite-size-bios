@@ -1,72 +1,71 @@
 # Bite-Size Bios
 
-A series of bite-size bios, each delivered as a readable web page and a podcast-style audio version.
+Bite-Size Bios is a Hugo site plus a research workspace for drafting short narrative biographies.
 
-## Output
+The repository is organized around two main project directories:
 
-- **Website:** One page per person, with a ~2500-word biography, links, and clean design.
-- **Podcast:** Audio version in the style of NotebookLM — conversational, well-paced, optionally multi-voice.
+- `site/` contains the public Hugo website.
+- `research/` contains source notes, drafts, and reusable writing skills.
+
+Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repository and deployment plumbing.
 
 ## Directory Structure
 
-```
+```text
 .
+├── Makefile
 ├── README.md
-├── hugo.toml               # Hugo site configuration
-├── netlify.toml            # Netlify build and preview configuration
-├── content/                # Public website content
-│   └── biographies/
-│       └── <slug>/
-│           └── index.md    # Published biography page
-├── bios/                   # Source archive, drafts, and research notes
-│   └── <initial>/<slug>/
-│       ├── research-links.md
-│       ├── notes.md
-│       ├── biography.md
-│       └── podcast-script.md
-├── assets/                 # Theme/site assets
-└── static/                 # Static files copied directly into the site
+├── netlify.toml
+├── research/
+│   ├── biographies/
+│   │   └── <initial>/<slug>/
+│   │       ├── biography.md
+│   │       └── research-links.md
+│   └── skills/
+│       └── write-bio.md
+└── site/
+    ├── archetypes/
+    ├── content/
+    │   └── biographies/<slug>/index.md
+    ├── hugo.toml
+    ├── layouts/
+    ├── package.json
+    ├── static/
+    └── themes/Blonde/
 ```
 
-## Process
+## Research Workflow
 
-### 1. Research & Notes
-- Create a directory: `<initial>/<slug>/`
-- Add `research-links.md` with credible sources (PBS, NPS, academic, primary docs)
-- Read sources and compile `notes.md` — key facts, quotes, timeline, themes
+1. Create a folder at `research/biographies/<initial>/<slug>/`.
+2. Add `research-links.md` with credible primary, institutional, academic, or otherwise reliable sources.
+3. Draft the working biography in `biography.md`.
+4. Use `research/skills/write-bio.md` as the reusable drafting guide.
+5. Publish by adapting the draft into `site/content/biographies/<slug>/index.md`.
 
-### 2. Draft Biography
-- Write `biography.md` (~2500 words) from the notes
-- Iterate in the vault; editable in Obsidian
-- Aim for narrative flow: hook, arc, legacy
+Keep research notes in `research/` unless they are intentionally prepared for publication.
 
-### 3. Website Page
-- Copy or adapt `bios/<initial>/<slug>/biography.md` into `content/biographies/<slug>/index.md`
-- Add Hugo front matter: title, lifespan, summary, tags, categories, and draft status
-- Keep research notes in `bios/` unless they are intentionally prepared for publication
-- Preview the page locally with `make dev`
+## Site Development
 
-### 4. Podcast Version
-- Generate audio from the biography text
-- Style: NotebookLM-like — conversational pacing, chapter breaks
-- Optionally: multi-voice, intro/outro music
-- Output: MP3 per person
+Initialize the theme submodule after cloning:
 
-## Website
+```sh
+git submodule update --init --recursive
+```
 
-This project uses [Hugo](https://gohugo.io/) for the static website.
+Install the site dependencies:
 
-Published pages live in `content/`. Source drafts, notes, and research links stay in `bios/`.
+```sh
+cd site
+npm ci
+```
 
-The site uses the `opera7133/Blonde` theme as a Git submodule in `themes/Blonde`.
-
-### Local Development
+Run the site locally from the repository root:
 
 ```sh
 make dev
 ```
 
-If port `1313` is already in use, choose another fixed port:
+Use a different port if `1313` is already busy:
 
 ```sh
 make dev PORT=1314
@@ -78,53 +77,39 @@ Build the production site:
 make build
 ```
 
-The generated site is written to `public/`, which is ignored by Git.
-
-Remove generated files:
+Clean generated Hugo output:
 
 ```sh
 make clean
 ```
 
-### Theme
+Generated site output is written under `site/public/` and ignored by Git.
 
-The theme is tracked as a Git submodule. After cloning the repository, initialize it with:
+## Deployment
 
-```sh
-git submodule update --init --recursive
-```
+The site deploys with Netlify. The root `netlify.toml` sets `site/` as the build base, installs from `site/package-lock.json`, and publishes `site/public/`.
 
-Blonde uses Tailwind CSS through Hugo, so install Node dependencies before building:
+Netlify build settings:
 
-```sh
-npm install
-```
+- Base directory: `site`
+- Build command: `hugo --gc --minify --cleanDestinationDir`
+- Publish directory: `public`
+- Hugo version: `0.163.3`
 
-### Deployment
+The build command overrides Hugo's `baseURL` with Netlify's `DEPLOY_PRIME_URL`, so production, branch deploys, and PR previews generate links for their own deployed URL.
 
-The site deploys with [Netlify](https://www.netlify.com/).
+## Current Content
 
-Netlify reads `netlify.toml` from the repository root:
+Published biographies:
 
-- **Build command:** `hugo --gc --minify --cleanDestinationDir`
-- **Publish directory:** `public`
-- **Hugo version:** `0.163.3`
+- Elizabeth Báthory
+- John Brown
+- Mahatma Gandhi
 
-Connect the GitHub repository in Netlify and set `main` as the production branch. Netlify will automatically build production deploys from `main` and Deploy Previews for pull requests. Preview URLs use Netlify's standard format:
+Research folders mirror the published slugs under `research/biographies/`.
 
-```text
-https://deploy-preview-<PR_NUMBER>--<SITE_NAME>.netlify.app
-```
+## Future Work
 
-The Netlify build command overrides Hugo's `baseURL` with Netlify's `DEPLOY_PRIME_URL`, so production, branch deploys, and PR previews all generate links for their own deployed URL.
-
-If the Netlify site name or production custom domain changes, update `baseURL` in `hugo.toml` to match the production URL used outside Netlify builds.
-
-## Open Questions
-
-- **Podcast voice:** Single narrator or multi-voice?
-- **Audio generation:** Use `sag` (ElevenLabs TTS) or another pipeline?
-
-## In Progress
-
-- [ ] John Brown — `b/brown-john/`
+- Decide whether podcast versions should use a single narrator or a multi-voice format.
+- Choose and document the audio generation pipeline.
+- Add audio output paths once podcast files are produced.
