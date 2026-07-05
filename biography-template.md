@@ -1,6 +1,6 @@
 # Biography Template
 
-Use this template for each 10-minute biography. Copy into `<initial>/<slug>/` and fill in.
+Use this template for each bite-size bio. Copy into `<initial>/<slug>/` and fill in.
 
 ---
 
@@ -65,8 +65,8 @@ Use this template for each 10-minute biography. Copy into `<initial>/<slug>/` an
 | Element | Target |
 |---------|--------|
 | Total word count | ~2,500 words |
-| Reading time | ~10 minutes |
-| Audio runtime | ~10–12 minutes |
+| Reading time | Bite-size, single-sitting read |
+| Audio runtime | Short-form episode |
 | Sources cited | 3–5 minimum |
 
 ---

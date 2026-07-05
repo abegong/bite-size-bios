@@ -1,6 +1,6 @@
-# 10-Minute Biographies
+# Bite-Size Bios
 
-A series of ~10-minute biographies, each delivered as a readable web page and a podcast-style audio version.
+A series of bite-size bios, each delivered as a readable web page and a podcast-style audio version.
 
 ## Output
 
@@ -42,9 +42,9 @@ A series of ~10-minute biographies, each delivered as a readable web page and a 
 
 ### 3. Website Page
 - Copy or adapt `bios/<initial>/<slug>/biography.md` into `content/biographies/<slug>/index.md`
-- Add Hugo front matter: title, lifespan, summary, tags, topics, and draft status
+- Add Hugo front matter: title, lifespan, summary, tags, categories, and draft status
 - Keep research notes in `bios/` unless they are intentionally prepared for publication
-- Pick and configure a Hugo theme before expecting rendered HTML pages
+- Preview the page locally with `make dev`
 
 ### 4. Podcast Version
 - Generate audio from the biography text
@@ -58,7 +58,7 @@ This project uses [Hugo](https://gohugo.io/) for the static website.
 
 Published pages live in `content/`. Source drafts, notes, and research links stay in `bios/`.
 
-The site uses the `diwao/hestia-pure` theme as a Git submodule in `themes/hestia-pure`.
+The site uses the `opera7133/Blonde` theme as a Git submodule in `themes/Blonde`.
 
 ### Local Development
 
@@ -92,6 +92,12 @@ The theme is tracked as a Git submodule. After cloning the repository, initializ
 
 ```sh
 git submodule update --init --recursive
+```
+
+Blonde uses Tailwind CSS through Hugo, so install Node dependencies before building:
+
+```sh
+npm install
 ```
 
 ### Deployment

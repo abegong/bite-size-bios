@@ -109,4 +109,4 @@ Brown is buried in North Elba, New York, in the Adirondack community of Black fa
 
 ---
 
-*Written for the 10-Minute Biographies project.*
+*Written for the Bite-Size Bios project.*

@@ -1,6 +1,6 @@
 +++
-title = "10-Minute Biographies"
-description = "Readable, 10-minute biographies for curious people."
+title = "Bite-Size Bios"
+description = "Readable bite-size bios for curious people."
 +++
 
 A series of concise, narrative biographies designed to be read in about ten minutes.
