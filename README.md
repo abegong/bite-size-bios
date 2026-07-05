@@ -10,13 +10,22 @@ A series of ~10-minute biographies, each delivered as a readable web page and a 
 ## Directory Structure
 
 ```
-projects/ongoing/10-minute-biographies/
+.
 ├── README.md
-├── <initial>/<slug>/
-│   ├── research-links.md   # Curated credible sources
-│   ├── notes.md            # Key facts, quotes, timeline
-│   ├── biography.md        # ~2500-word draft
-│   └── podcast-script.md   # Optional: tweaked narration script
+├── hugo.toml               # Hugo site configuration
+├── content/                # Public website content
+│   └── biographies/
+│       └── <slug>/
+│           └── index.md    # Published biography page
+├── bios/                   # Source archive, drafts, and research notes
+│   └── <initial>/<slug>/
+│       ├── research-links.md
+│       ├── notes.md
+│       ├── biography.md
+│       └── podcast-script.md
+├── assets/                 # Theme/site assets
+├── static/                 # Static files copied directly into the site
+└── .github/workflows/      # GitHub Pages deployment
 ```
 
 ## Process
@@ -32,9 +41,10 @@ projects/ongoing/10-minute-biographies/
 - Aim for narrative flow: hook, arc, legacy
 
 ### 3. Website Page
-- Convert `biography.md` to HTML (static site generator or hand-rolled)
-- Add navigation, styling, links section
-- Deploy to hosting (TBD: GitHub Pages, existing site, etc.)
+- Copy or adapt `bios/<initial>/<slug>/biography.md` into `content/biographies/<slug>/index.md`
+- Add Hugo front matter: title, lifespan, summary, tags, topics, and draft status
+- Keep research notes in `bios/` unless they are intentionally prepared for publication
+- Pick and configure a Hugo theme before expecting rendered HTML pages
 
 ### 4. Podcast Version
 - Generate audio from the biography text
@@ -42,10 +52,54 @@ projects/ongoing/10-minute-biographies/
 - Optionally: multi-voice, intro/outro music
 - Output: MP3 per person
 
+## Website
+
+This project uses [Hugo](https://gohugo.io/) for the static website.
+
+Published pages live in `content/`. Source drafts, notes, and research links stay in `bios/`.
+
+The site uses the `diwao/hestia-pure` theme as a Git submodule in `themes/hestia-pure`.
+
+### Local Development
+
+```sh
+make dev
+```
+
+If port `1313` is already in use, choose another fixed port:
+
+```sh
+make dev PORT=1314
+```
+
+Build the production site:
+
+```sh
+make build
+```
+
+The generated site is written to `public/`, which is ignored by Git.
+
+Remove generated files:
+
+```sh
+make clean
+```
+
+### Theme
+
+The theme is tracked as a Git submodule. After cloning the repository, initialize it with:
+
+```sh
+git submodule update --init --recursive
+```
+
+### Deployment
+
+The site deploys to GitHub Pages with `.github/workflows/hugo.yml` when changes are pushed to `main`.
+
 ## Open Questions
 
-- **Static site generator:** Jekyll, 11ty, or plain HTML?
-- **Hosting:** GitHub Pages, existing personal site, or dedicated domain?
 - **Podcast voice:** Single narrator or multi-voice?
 - **Audio generation:** Use `sag` (ElevenLabs TTS) or another pipeline?
 
