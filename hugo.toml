@@ -1,0 +1,26 @@
+baseURL = "https://abegong.github.io/bite-sized-biographies/"
+locale = "en-US"
+title = "10-Minute Biographies"
+theme = "hestia-pure"
+
+enableRobotsTXT = true
+summaryLength = 30
+
+[params]
+  description = "Readable, 10-minute biographies for curious people."
+  keywords = "biographies,history,hugo"
+  github = "abegong"
+
+[params.author]
+  name = "10-Minute Biographies"
+  profile = "Compact narrative biographies for curious general readers."
+  image = "image/theme/author.png"
+
+[taxonomies]
+  tag = "tags"
+  topic = "topics"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
