@@ -4,8 +4,8 @@
   "private": true,
   "description": "Hugo site for Bite-Size Bios.",
   "scripts": {
-    "build": "hugo --gc --minify",
-    "dev": "hugo server -D"
+    "build": "hugo --gc --minify --cleanDestinationDir",
+    "dev": "hugo server -D --bind 127.0.0.1"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.16",

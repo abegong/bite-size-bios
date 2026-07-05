@@ -1,6 +1,6 @@
-# Biography Template
+# Write Bio
 
-Use this template for each bite-size bio. Copy into `<initial>/<slug>/` and fill in.
+Use this skill to draft each bite-size bio. Copy it into `research/biographies/<initial>/<slug>/biography.md` and fill it in from the source notes.
 
 ---
 
