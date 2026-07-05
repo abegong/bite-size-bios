@@ -1,0 +1,72 @@
+<style>
+  .theme-mode-instant,
+  .theme-mode-instant * {
+    transition: none !important;
+    animation: none !important;
+  }
+</style>
+
+<script>
+  (function () {
+    function getStoredTheme() {
+      try {
+        return window.localStorage.getItem("theme");
+      } catch (error) {
+        return null;
+      }
+    }
+
+    function setStoredTheme(theme) {
+      try {
+        window.localStorage.setItem("theme", theme);
+      } catch (error) {
+        return;
+      }
+    }
+
+    function prefersDark() {
+      return (
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches
+      );
+    }
+
+    function shouldUseDarkMode() {
+      var storedTheme = getStoredTheme();
+      return storedTheme === "dark" || (!storedTheme && prefersDark());
+    }
+
+    function setDarkModeIcons(isDark) {
+      var moonIcon1 = document.getElementById("icon-moon");
+      var sunIcon1 = document.getElementById("icon-sun");
+      var moonIcon2 = document.getElementById("icon2-moon");
+      var sunIcon2 = document.getElementById("icon2-sun");
+
+      if (moonIcon1) moonIcon1.classList.toggle("hidden", isDark);
+      if (sunIcon1) sunIcon1.classList.toggle("hidden", !isDark);
+      if (moonIcon2) moonIcon2.classList.toggle("hidden", isDark);
+      if (sunIcon2) sunIcon2.classList.toggle("hidden", !isDark);
+    }
+
+    function applyTheme(isDark) {
+      document.documentElement.classList.toggle("dark", isDark);
+      setDarkModeIcons(isDark);
+    }
+
+    applyTheme(shouldUseDarkMode());
+
+    window.toggleDarkMode = function () {
+      var isDark = !document.documentElement.classList.contains("dark");
+      document.documentElement.classList.add("theme-mode-instant");
+      applyTheme(isDark);
+      setStoredTheme(isDark ? "dark" : "light");
+      window.requestAnimationFrame(function () {
+        document.documentElement.classList.remove("theme-mode-instant");
+      });
+    };
+
+    document.addEventListener("DOMContentLoaded", function () {
+      setDarkModeIcons(document.documentElement.classList.contains("dark"));
+    });
+  })();
+</script>

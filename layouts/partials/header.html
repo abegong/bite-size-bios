@@ -1,0 +1,53 @@
+<div class="{{ .Site.Params.base_color }} shadow-sm">
+  <div class="container max-w-7xl mr-auto ml-auto">
+    <nav class="flex items-center justify-between px-6 py-4">
+      <div class="flex items-center flex-no-shrink text-white mr-6">
+        <a href="{{ .Site.BaseURL }}"
+          >{{ if .Site.Params.logo }}
+            <img
+              src="{{ .Site.Params.logo }}"
+              alt="{{ .Site.Title }}"
+              class="h-8 w-auto"
+            />
+          {{ else }}
+            <span class="font-semibold text-xl tracking-tight"
+              >{{ .Site.Title }}</span
+            >
+          {{ end }}</a
+        >
+        {{ with .Site.Params.description }}
+          <span class="ml-3 hidden text-sm font-normal text-white/70 sm:inline"
+            >{{ . }}</span
+          >
+        {{ end }}
+      </div>
+      <div class="flex items-center gap-3 text-white/80">
+        {{ range .Site.Params.social }}
+          {{ if and .url (eq .name "GitHub") }}
+            <a
+              href="{{ .url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="{{ .name }}"
+              class="hover:text-white transition-colors duration-200"
+            >
+              {{ partial "icon.html" (dict "name" .icon "class" "text-lg") }}
+            </a>
+          {{ end }}
+        {{ end }}
+        <button
+          onclick="toggleDarkMode()"
+          class="focus-visible:outline-none hover:text-white transition-colors duration-200 cursor-pointer"
+          aria-label="Darkmode Toggle Button"
+        >
+          <span id="icon-moon"
+            >{{ partial "icon.html" (dict "name" "bedtime" "class" "text-lg") }}</span
+          >
+          <span id="icon-sun" class="hidden"
+            >{{ partial "icon.html" (dict "name" "sunny" "class" "text-lg") }}</span
+          >
+        </button>
+      </div>
+    </nav>
+  </div>
+</div>

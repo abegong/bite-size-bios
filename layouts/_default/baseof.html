@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ or .Site.Language.Locale .Site.Language.Lang "en" }}">
   {{- partial "head.html" . -}}
+  {{- partial "theme-mode.html" . -}}
   <body class="font-sans">
     <div class="min-h-screen flex flex-col bg-gray-100 dark:bg-warmgray-800">
       {{- partial "header.html" . -}}
@@ -10,7 +11,6 @@
       >
         <div class="lg:mx-5">{{- block "main" . }}{{- end }}</div>
       </div>
-      {{- partial "footer.html" . -}}
     </div>
   </body>
 </html>
