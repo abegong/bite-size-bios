@@ -22,6 +22,7 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 │   │       ├── biography.md
 │   │       └── research-links.md
 │   └── skills/
+│       ├── research-bio.md
 │       └── write-bio.md
 └── site/
     ├── archetypes/
@@ -37,7 +38,7 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 ## Research Workflow
 
 1. Create a folder at `research/biographies/<initial>/<slug>/`.
-2. Add `research-links.md` with credible primary, institutional, academic, or otherwise reliable sources.
+2. Use `research/skills/research-bio.md` to add `research-links.md` with credible primary, institutional, academic, or otherwise reliable sources.
 3. Draft the working biography in `biography.md`.
 4. Use `research/skills/write-bio.md` as the reusable drafting guide.
 5. Publish by adapting the draft into `site/content/biographies/<slug>/index.md`.
