@@ -13,6 +13,7 @@ A series of bite-size bios, each delivered as a readable web page and a podcast-
 .
 ├── README.md
 ├── hugo.toml               # Hugo site configuration
+├── netlify.toml            # Netlify build and preview configuration
 ├── content/                # Public website content
 │   └── biographies/
 │       └── <slug>/
@@ -24,8 +25,7 @@ A series of bite-size bios, each delivered as a readable web page and a podcast-
 │       ├── biography.md
 │       └── podcast-script.md
 ├── assets/                 # Theme/site assets
-├── static/                 # Static files copied directly into the site
-└── .github/workflows/      # GitHub Pages deployment
+└── static/                 # Static files copied directly into the site
 ```
 
 ## Process
@@ -102,7 +102,23 @@ npm install
 
 ### Deployment
 
-The site deploys to GitHub Pages with `.github/workflows/hugo.yml` when changes are pushed to `main`.
+The site deploys with [Netlify](https://www.netlify.com/).
+
+Netlify reads `netlify.toml` from the repository root:
+
+- **Build command:** `hugo --gc --minify --cleanDestinationDir`
+- **Publish directory:** `public`
+- **Hugo version:** `0.163.3`
+
+Connect the GitHub repository in Netlify and set `main` as the production branch. Netlify will automatically build production deploys from `main` and Deploy Previews for pull requests. Preview URLs use Netlify's standard format:
+
+```text
+https://deploy-preview-<PR_NUMBER>--<SITE_NAME>.netlify.app
+```
+
+The Netlify build command overrides Hugo's `baseURL` with Netlify's `DEPLOY_PRIME_URL`, so production, branch deploys, and PR previews all generate links for their own deployed URL.
+
+If the Netlify site name or production custom domain changes, update `baseURL` in `hugo.toml` to match the production URL used outside Netlify builds.
 
 ## Open Questions
 

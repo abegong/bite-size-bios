@@ -1,4 +1,4 @@
-baseURL = "https://abegong.github.io/bite-sized-biographies/"
+baseURL = "https://bite-sized-biographies.netlify.app/"
 locale = "en-US"
 title = "Bite-Size Bios"
 author = "Bite-Size Bios"
