@@ -1,6 +1,6 @@
 # Research Bio
 
-Use this skill to research a bite-size biography before drafting. Create or update `research/biographies/<initial>/<slug>/research-links.md` with source links, source quality notes, unresolved questions, and the facts a writer will need for `biography.md`.
+Use this skill to research a bite-size biography before drafting. Create or update `research/biographies/<initial>/<slug>/research-links.md` as a bio dossier that `research/skills/write-bio.md` can use directly.
 
 ---
 
@@ -10,6 +10,21 @@ Use this skill to research a bite-size biography before drafting. Create or upda
 - Separate established facts from interpretation, legend, propaganda, and disputed claims.
 - Identify the scenes, choices, conflicts, and contradictions that can carry a narrative biography.
 - Leave a clear audit trail so another writer can tell where each major claim came from.
+
+---
+
+## Shared Dossier Contract
+
+Write `research-links.md` as the handoff to `write-bio.md`. It must give the writer enough material to draft without re-researching the basics.
+
+Use these shared sections:
+
+- **Research Frame**: the core question, likely angle, and main caution.
+- **Best Sources**: credible sources with type, use, and limitations.
+- **Timeline Notes**: chronology and turning points.
+- **Narrative Material**: hook candidates, world context, key people, conflicts, character and motivation, climax candidates, and legacy.
+- **Controversies and Debates**: disputed claims with evidence on each side.
+- **Drafting Handoff**: recommended hook, central arc, sections that need caution, and open questions.
 
 ---
 
@@ -59,8 +74,10 @@ Collect facts and details under these headings:
 - **Timeline**: birth, education, career, major turning points, death, posthumous developments.
 - **World Context**: the political, social, religious, scientific, artistic, or economic world around the subject.
 - **Key People**: allies, rivals, family, patrons, critics, victims, collaborators.
-- **Defining Scenes**: vivid moments that could open or anchor the biography.
-- **Conflicts**: external obstacles and internal contradictions.
+- **Hook Candidates**: vivid moments that could open or anchor the biography.
+- **Conflicts**: external obstacles, internal contradictions, and moral stakes.
+- **Character and Motivation**: what the person wanted, feared, believed, misunderstood, or refused to accept.
+- **Climax Candidates**: the defining success, failure, confrontation, discovery, betrayal, trial, performance, campaign, or death.
 - **Legacy**: how reputation changed over time and who shaped that memory.
 
 ### 5. Handle Disputed Claims
@@ -72,8 +89,10 @@ Collect facts and details under these headings:
 
 ### 6. Leave Open Questions
 
-End the research pass with specific questions that would improve the draft:
+End the research pass with a drafting handoff and specific questions that would improve the draft:
 
+- Recommended hook and central arc
+- Claims the writer should phrase carefully
 - Missing primary sources
 - Contradictory dates or claims
 - Context that needs expert confirmation
@@ -119,13 +138,47 @@ Write `research-links.md` in this format:
 
 - ...
 
-## People and Context
+## Narrative Material
+
+### Hook Candidates
+
+- ...
+
+### World Context
+
+- ...
+
+### Key People
+
+- ...
+
+### Conflicts
+
+- ...
+
+### Character and Motivation
+
+- ...
+
+### Climax Candidates
+
+- ...
+
+### Legacy
 
 - ...
 
 ## Controversies and Debates
 
 - ...
+
+## Drafting Handoff
+
+- **Recommended hook:** ...
+- **Central arc:** ...
+- **Use caution with:** ...
+- **Strongest source base:** ...
+- **Weakest source base:** ...
 
 ## Open Questions
 
@@ -149,3 +202,4 @@ Write `research-links.md` in this format:
 - Include failed or blocked sources only when the failure explains a research gap or suggests a later lead.
 - If the source base is thin, say so plainly and identify the next best places to search.
 - Preserve uncertainty for the writer instead of hiding it.
+- Make the Drafting Handoff specific enough that `write-bio.md` can proceed from it.
