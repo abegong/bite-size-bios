@@ -4,8 +4,7 @@
   {{ if .Site.Params.post.thumbnail }}
     {{ if .Params.image }}
       <img
-        alt="thumbnail"
-        id="thumb"
+        alt="{{ .Title }}"
         class="{{ .Site.Params.post.thumbnail_width }} {{ .Site.Params.post.thumbnail_height }} object-cover"
         src="{{ .Params.image | relURL }}"
       />

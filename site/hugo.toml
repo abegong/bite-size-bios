@@ -20,10 +20,10 @@ summaryLength = 30
   darkmode = "light"
 
   [params.post]
-    thumbnail = false
+    thumbnail = true
     noimage = false
-    thumbnail_height = "lg:h-44"
-    thumbnail_width = "lg:w-auto"
+    thumbnail_height = "h-40 lg:h-44"
+    thumbnail_width = "w-full lg:w-44"
     description = "130"
 
   [params.widgets]

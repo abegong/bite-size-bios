@@ -4,6 +4,7 @@ lifespan = "1800-1859"
 date = 2026-07-05
 draft = false
 summary = "Abolitionist John Brown forced the United States toward a reckoning over slavery through faith, violence, and martyrdom."
+image = "/img/biographies/john-brown.png"
 tags = ["abolition", "american-history", "civil-war"]
 categories = ["activism", "political-violence", "slavery"]
 archives = ["2026/07"]
