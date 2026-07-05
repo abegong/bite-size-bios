@@ -10,7 +10,7 @@ enableRobotsTXT = true
 summaryLength = 30
 
 [params]
-  description = "Readable bite-size bios for curious people."
+  description = "Short, readable bios for curious people."
   mainSections = ["biographies"]
   base_color = "bg-gray-800"
   paginator_pages = 5
@@ -36,7 +36,7 @@ summaryLength = 30
 
   [[params.social]]
     name = "GitHub"
-    url = "https://github.com/abegong"
+    url = "https://github.com/abegong/bite-size-bios"
     icon = "github"
 
 [menu]
