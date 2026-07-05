@@ -36,7 +36,7 @@ summaryLength = 30
 
   [[params.social]]
     name = "GitHub"
-    url = "https://github.com/abegong"
+    url = "https://github.com/abegong/bite-sized-biographies"
     icon = "github"
 
 [menu]
