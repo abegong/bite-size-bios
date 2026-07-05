@@ -5,7 +5,8 @@ date = 2026-07-05
 draft = false
 summary = "Abolitionist John Brown forced the United States toward a reckoning over slavery through faith, violence, and martyrdom."
 tags = ["abolition", "american-history", "civil-war"]
-topics = ["activism", "political-violence", "slavery"]
+categories = ["activism", "political-violence", "slavery"]
+archives = ["2026/07"]
 +++
 
 ## The Hook: The Man Who Would Not Wait
@@ -117,4 +118,4 @@ Brown is buried in North Elba, New York, in the Adirondack community of Black fa
 
 ---
 
-*Written for the 10-Minute Biographies project.*
+*Written for the Bite-Size Bios project.*

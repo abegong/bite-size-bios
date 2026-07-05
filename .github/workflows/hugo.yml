@@ -42,8 +42,11 @@ jobs:
           tar -C "${RUNNER_TEMP}" -xzf "${RUNNER_TEMP}/hugo.tar.gz" hugo
           sudo mv "${RUNNER_TEMP}/hugo" /usr/local/bin/hugo
 
+      - name: Install Node dependencies
+        run: npm install
+
       - name: Build
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: PATH="./node_modules/.bin:${PATH}" hugo --gc --minify --cleanDestinationDir --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

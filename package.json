@@ -1,0 +1,16 @@
+{
+  "name": "bite-sized-biographies",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hugo site for Bite-Size Bios.",
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server -D"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "@tailwindcss/typography": "^0.5.19",
+    "tailwindcss": "^4.1.16",
+    "pagefind": "^1.4.0"
+  }
+}

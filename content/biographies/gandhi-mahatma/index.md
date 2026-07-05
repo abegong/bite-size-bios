@@ -5,7 +5,8 @@ date = 2026-07-05
 draft = false
 summary = "A narrative biography of Mahatma Gandhi, whose campaigns of nonviolent resistance reshaped India and the modern world."
 tags = ["indian-history", "nonviolence", "anti-colonialism"]
-topics = ["activism", "empire", "political-leadership"]
+categories = ["activism", "empire", "political-leadership"]
+archives = ["2026/07"]
 +++
 
 ## The Hook: A Frail Old Man Against the British Raj
