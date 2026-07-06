@@ -1,7 +1,7 @@
 +++
 title = "Elizabeth Báthory"
 lifespan = "1560-1614"
-date = 2026-07-05
+date = "2026-07-05"
 draft = false
 summary = "The story of Elizabeth Báthory, the Blood Countess, and the contested line between atrocity, legend, and political conspiracy."
 image = "/img/biographies/elizabeth-bathory.png"

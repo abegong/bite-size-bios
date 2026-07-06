@@ -86,6 +86,36 @@ make clean
 
 Generated site output is written under `site/public/` and ignored by Git.
 
+## Content Validation
+
+This repository uses Katalyst to validate the biography content model:
+
+- `site/content/biographies/` is checked as published Hugo content.
+- `research/biographies/` is checked as source research content.
+
+Run validation from the repository root:
+
+```sh
+katalyst check
+```
+
+Research files include a small front matter marker so Katalyst can distinguish
+draft biographies from source-link notes:
+
+```yaml
+---
+kind: biography
+---
+```
+
+or:
+
+```yaml
+---
+kind: research-links
+---
+```
+
 ## Deployment
 
 The site deploys with Netlify. The root `netlify.toml` sets `site/` as the build base, installs from `site/package-lock.json`, and publishes `site/public/`.

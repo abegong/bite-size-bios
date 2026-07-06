@@ -1,0 +1,102 @@
+# The default base: the local filesystem, rooted at the project.
+# Declare collections under "collections:", e.g.
+#
+#   collections:
+#     notes:
+#       path: notes          # directory, relative to root
+#       schema: note         # a schema name from .katalyst/schemas/
+type: filesystem
+root: .
+collections:
+  published_content:
+    path: site/content/biographies
+    pattern: "**/*.md"
+    useExhaustiveVariants: true
+    checks:
+      - kind: markdown_no_heading_level_jumps
+    variants:
+      - when: "lifespan"
+        schema: published_biography
+        checks:
+          - kind: filesystem_path_depth
+            min: 1
+            max: 1
+          - kind: filesystem_name_case
+            style: kebab
+            target: parent-dir
+          - kind: filesystem_name_affix
+            suffix: index.md
+            target: filename-ext
+          - kind: text_requires
+            pattern: "^## The Hook\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (Early Life|Early Life & Formation)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (The Rise|Rise and Work)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (The Climax|Climax)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (Legacy|Legacy & Reckoning)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## Sources\\b"
+            target: line
+      - when: "description"
+        schema: published_section_index
+
+  research_files:
+    path: research/biographies
+    pattern: "**/*.md"
+    schema: research_file
+    useExhaustiveVariants: true
+    checks:
+      - kind: filesystem_path_depth
+        min: 2
+        max: 2
+      - kind: filesystem_name_case
+        style: kebab
+        target: parent-dir
+      - kind: markdown_requires_h1
+      - kind: markdown_single_h1
+      - kind: markdown_no_heading_level_jumps
+    variants:
+      - when: "kind=biography"
+        checks:
+          - kind: filesystem_name_affix
+            suffix: biography.md
+            target: filename-ext
+          - kind: text_requires
+            pattern: "^## The Hook\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (Early Life|Early Life & Formation)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (The Rise|Rise and Work)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (The Work|The Rise|Rise and Work)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (The Climax|Climax)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## (Legacy|Legacy & Reckoning)\\b"
+            target: line
+          - kind: text_requires
+            pattern: "^## Sources\\b"
+            target: line
+      - when: "kind=research-links"
+        checks:
+          - kind: filesystem_name_affix
+            suffix: research-links.md
+            target: filename-ext
+          - kind: text_requires
+            pattern: "^# .+Research Links$"
+            target: line
+          - kind: text_requires
+            pattern: "https?://"

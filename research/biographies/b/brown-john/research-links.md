@@ -1,3 +1,7 @@
+---
+kind: research-links
+---
+
 # John Brown — Research Links
 
 ## Primary / Credible Sources

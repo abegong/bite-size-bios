@@ -1,3 +1,7 @@
+---
+kind: research-links
+---
+
 # Mahatma Gandhi — Research Links
 
 ## Primary Source

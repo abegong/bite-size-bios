@@ -1,3 +1,7 @@
+---
+kind: research-links
+---
+
 # Elizabeth Báthory — Research Links
 
 ## Primary Source

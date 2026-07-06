@@ -1,7 +1,7 @@
 +++
 title = "Mahatma Gandhi"
 lifespan = "1869-1948"
-date = 2026-07-05
+date = "2026-07-05"
 draft = false
 summary = "A narrative biography of Mahatma Gandhi, whose campaigns of nonviolent resistance reshaped India and the modern world."
 image = "/img/biographies/gandhi.jpg"

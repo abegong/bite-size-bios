@@ -1,0 +1,13 @@
+# katalyst project configuration.
+#
+# Schemas live in .katalyst/schemas/<name>.yaml. Bases live in
+# .katalyst/bases/<name>.yaml, and each base declares the collections it maps.
+# The settings below are optional and shown at their defaults; uncomment to
+# change them.
+#
+# schemas:
+#   discovery: convention   # convention | explicit
+#   format: yaml            # yaml | json | both
+# bases:
+#   discovery: convention
+#   format: yaml

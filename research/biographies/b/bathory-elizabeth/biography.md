@@ -1,3 +1,7 @@
+---
+kind: biography
+---
+
 # Elizabeth Báthory (1560–1614)
 
 ## The Hook: The Blood Countess — or the Victim of a Conspiracy?
