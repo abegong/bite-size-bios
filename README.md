@@ -96,7 +96,7 @@ Netlify build settings:
 - Publish directory: `public`
 - Hugo version: `0.163.3`
 
-The build command overrides Hugo's `baseURL` with Netlify's `DEPLOY_PRIME_URL`, so production, branch deploys, and PR previews generate links for their own deployed URL.
+Production builds use Hugo's `baseURL`, which is set to `https://bite-size-bios.com/`. Branch deploys and PR previews override `baseURL` with Netlify's `DEPLOY_PRIME_URL`, so preview links still point at their own deployed URL.
 
 ## Current Content
 

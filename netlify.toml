@@ -1,6 +1,6 @@
 [build]
   base = "site"
-  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir --baseURL "${DEPLOY_PRIME_URL}/"'
+  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir'
   publish = "public"
 
 [build.environment]

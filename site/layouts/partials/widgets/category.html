@@ -13,7 +13,7 @@
       {{ range $key, $value := .Site.Taxonomies.categories }}
         <a
           class="flex items-center justify-between px-5 py-3 hover:bg-gray-50 dark:hover:bg-warmgray-800 transition-colors duration-150 text-sm text-gray-700 dark:text-gray-300"
-          href="{{ printf "categories/%s/" ($key | urlize) | absURL }}"
+          href="{{ printf "categories/%s/" ($key | urlize) | relURL }}"
           ><span>{{ $key | humanize }}</span
           ><span class="text-xs text-gray-400 dark:text-gray-500"
             >{{ $value.Count }}</span
