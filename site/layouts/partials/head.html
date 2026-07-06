@@ -1,0 +1,58 @@
+{{- $title := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Title) -}}
+{{- $description := or .Description .Summary .Site.Params.description -}}
+{{- $image := or .Params.image .Site.Params.social_image -}}
+<head>
+  {{- if templates.Exists "partials/analytics.html" -}}
+    {{- partial "analytics" . -}}
+  {{- end -}}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ $title }}</title>
+  {{ with $description }}
+    <meta name="description" content="{{ . | plainify | htmlUnescape }}">
+  {{ end }}
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/logo/white/globe-face-16.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/logo/white/globe-face-32.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="48x48" href="{{ "/img/logo/white/globe-face-48.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="256x256" href="{{ "/img/logo/white/globe-face-256.png" | relURL }}">
+  <link rel="mask-icon" href="{{ .Site.Params.logo_dark | default "/img/logo/globe-face-black.svg" | relURL }}" color="#111827">
+
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ $title }}">
+  {{ with $description }}
+    <meta property="og:description" content="{{ . | plainify | htmlUnescape }}">
+  {{ end }}
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ with $image }}
+    <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $title }}">
+  {{ with $description }}
+    <meta name="twitter:description" content="{{ . | plainify | htmlUnescape }}">
+  {{ end }}
+  {{ with $image }}
+    <meta name="twitter:image" content="{{ . | absURL }}">
+  {{ end }}
+
+  {{ if not .Site.Params.disable_css_pipeline }}
+    {{ with resources.Get "css/style.css" }}
+      {{ $opts := dict "minify" (not hugo.IsDevelopment) }}
+      {{ with . | css.TailwindCSS $opts }}
+        {{ if hugo.IsDevelopment }}
+          <link rel="stylesheet" href="{{ .RelPermalink }}">
+        {{ else }}
+          {{ with . | fingerprint }}
+            <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ block "header_css" . }}{{ end }}
+  <i class="dark hidden"></i>
+</head>

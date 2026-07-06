@@ -2,19 +2,21 @@
   <div class="container max-w-7xl mr-auto ml-auto">
     <nav class="flex flex-wrap items-center justify-between gap-4 px-6 py-4">
       <div class="flex min-w-0 items-center flex-no-shrink text-white mr-6">
-        <a href="{{ "/" | relURL }}"
-          >{{ if .Site.Params.logo }}
+        <a
+          href="{{ "/" | relURL }}"
+          class="inline-flex min-w-0 items-center gap-2"
+        >
+          {{ if .Site.Params.logo }}
             <img
               src="{{ .Site.Params.logo }}"
-              alt="{{ .Site.Title }}"
-              class="h-8 w-auto"
+              alt=""
+              class="h-8 w-8 shrink-0"
             />
-          {{ else }}
-            <span class="font-semibold text-xl tracking-tight"
-              >{{ .Site.Title }}</span
-            >
-          {{ end }}</a
-        >
+          {{ end }}
+          <span class="truncate text-xl font-semibold tracking-tight"
+            >{{ .Site.Title }}</span
+          >
+        </a>
         {{ with .Site.Params.description }}
           <span class="ml-3 hidden text-sm font-normal text-white/70 sm:inline"
             >{{ . }}</span
