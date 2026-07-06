@@ -1,4 +1,4 @@
-<div class="{{ .Site.Params.base_color }} shadow-sm">
+<div class="bio-header shadow-sm">
   <div class="container max-w-7xl mr-auto ml-auto">
     <nav class="flex flex-wrap items-center justify-between gap-4 px-6 py-4">
       <div class="flex min-w-0 items-center flex-no-shrink text-white mr-6">
@@ -48,7 +48,80 @@
             >{{ partial "icon.html" (dict "name" "sunny" "class" "text-lg") }}</span
           >
         </button>
+        {{ if .Site.Params.widgets.display }}
+          <button
+            type="button"
+            onclick="toggleMobileWidgets()"
+            class="lg:hidden focus-visible:outline-none hover:text-white transition-colors duration-200 cursor-pointer"
+            aria-label="Open navigation widgets"
+            aria-controls="mobile-widgets-panel"
+            aria-expanded="false"
+            data-mobile-widgets-toggle
+          >
+            {{ partial "icon.html" (dict "name" "menu" "class" "text-xl") }}
+          </button>
+        {{ end }}
       </div>
     </nav>
   </div>
 </div>
+{{ if .Site.Params.widgets.display }}
+  <div
+    id="mobile-widgets-overlay"
+    class="fixed inset-0 z-40 hidden bg-black/40 lg:hidden"
+    onclick="closeMobileWidgets()"
+    aria-hidden="true"
+    data-mobile-widgets-overlay
+  ></div>
+  <aside
+    id="mobile-widgets-panel"
+    class="fixed top-0 right-0 z-50 flex h-dvh w-full max-w-sm translate-x-full flex-col overflow-y-auto bg-bio-surface p-4 transition-transform duration-200 lg:hidden"
+    aria-label="Navigation widgets"
+    data-mobile-widgets-panel
+  >
+    <div class="mb-4 flex items-center justify-between text-white">
+      <span class="text-sm font-semibold uppercase tracking-widest">Browse</span>
+      <button
+        type="button"
+        onclick="closeMobileWidgets()"
+        class="focus-visible:outline-none hover:text-white/80 transition-colors duration-200 cursor-pointer"
+        aria-label="Close navigation widgets"
+      >
+        {{ partial "icon.html" (dict "name" "keyboard_arrow_right" "class" "text-2xl") }}
+      </button>
+    </div>
+    {{ partial "widgets-list.html" . }}
+  </aside>
+  <script>
+    (function () {
+      function setMobileWidgetsOpen(isOpen) {
+        var panel = document.querySelector("[data-mobile-widgets-panel]");
+        var overlay = document.querySelector("[data-mobile-widgets-overlay]");
+        var toggle = document.querySelector("[data-mobile-widgets-toggle]");
+
+        if (!panel || !overlay) return;
+
+        panel.classList.toggle("translate-x-full", !isOpen);
+        overlay.classList.toggle("hidden", !isOpen);
+        document.documentElement.classList.toggle("overflow-hidden", isOpen);
+
+        if (toggle) {
+          toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        }
+      }
+
+      window.toggleMobileWidgets = function () {
+        var panel = document.querySelector("[data-mobile-widgets-panel]");
+        setMobileWidgetsOpen(panel && panel.classList.contains("translate-x-full"));
+      };
+
+      window.closeMobileWidgets = function () {
+        setMobileWidgetsOpen(false);
+      };
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") setMobileWidgetsOpen(false);
+      });
+    })();
+  </script>
+{{ end }}

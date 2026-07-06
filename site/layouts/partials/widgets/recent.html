@@ -2,22 +2,22 @@
 {{ $recent_num := ($.Site.Param `recentLimit` | default 5) }}
 {{- if $recent }}
   <div
-    class="bg-white rounded-xl shadow-sm mb-4 overflow-hidden dark:bg-warmgray-900"
+    class="bio-card mb-4 overflow-hidden"
   >
-    <div class="px-5 py-4 border-b border-gray-100 dark:border-warmgray-700">
+    <div class="px-5 py-4 border-b bio-rule">
       <p
-        class="text-xs font-semibold uppercase tracking-widest text-gray-500 dark:text-gray-400"
+        class="bio-kicker text-xs font-semibold uppercase tracking-widest"
       >
         Recent Biographies
       </p>
     </div>
-    <div class="divide-y divide-gray-100 dark:divide-warmgray-700">
+    <div class="divide-y bio-rule">
       {{- range first $recent_num $recent }}
         <a
           href="{{ .RelPermalink }}"
-          class="block px-5 py-3 hover:bg-gray-50 dark:hover:bg-warmgray-800 transition-colors duration-150"
+          class="bio-list-link block px-5 py-3 transition-colors duration-150"
         >
-          <p class="text-sm font-medium text-gray-900 dark:text-white leading-snug">
+          <p class="bio-title text-sm font-medium leading-snug">
             {{ .Title }}
           </p>
         </a>

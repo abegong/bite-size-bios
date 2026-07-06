@@ -1,21 +1,21 @@
 <div
-  class="bg-white rounded-xl shadow-sm mb-4 overflow-hidden dark:bg-warmgray-900"
+  class="bio-card mb-4 overflow-hidden"
 >
-  <div class="px-5 py-4 border-b border-gray-100 dark:border-warmgray-700">
+  <div class="px-5 py-4 border-b bio-rule">
     <p
-      class="text-xs font-semibold uppercase tracking-widest text-gray-500 dark:text-gray-400"
+      class="bio-kicker text-xs font-semibold uppercase tracking-widest"
     >
       Archives
     </p>
   </div>
   {{ if eq .Site.Params.archive_dropdown "false" }}
-    <div class="divide-y divide-gray-100 dark:divide-warmgray-700">
+    <div class="divide-y bio-rule">
       {{ range $name, $items := .Site.Taxonomies.archives }}
         <a
-          class="flex items-center justify-between px-5 py-3 hover:bg-gray-50 dark:hover:bg-warmgray-800 transition-colors duration-150 text-sm text-gray-700 dark:text-gray-300"
+          class="bio-list-link flex items-center justify-between px-5 py-3 transition-colors duration-150 text-sm"
           href="{{ printf "archives/%s/" ($name | urlize | lower) | relURL }}"
           ><span>{{ $name }}</span
-          ><span class="text-xs text-gray-400 dark:text-gray-500"
+          ><span class="bio-muted text-xs"
             >{{ $items.Count }}</span
           ></a
         >
@@ -24,7 +24,7 @@
   {{ else }}
     <div class="p-4">
       <select
-        class="w-full px-3 py-2 text-sm rounded-lg border border-gray-200 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-sky-500 dark:bg-warmgray-800 dark:border-warmgray-700 dark:text-gray-300"
+        class="w-full px-3 py-2 text-sm rounded-lg border bio-rule bio-card focus:outline-none focus:ring-2 focus:ring-bio-red"
         name="archive"
         onChange="location.href=value;"
       >
