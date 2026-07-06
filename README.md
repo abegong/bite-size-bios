@@ -123,11 +123,11 @@ The site deploys with Netlify. The root `netlify.toml` sets `site/` as the build
 Netlify build settings:
 
 - Base directory: `site`
-- Build command: `hugo --gc --minify --cleanDestinationDir`
+- Build command: `hugo --gc --minify --cleanDestinationDir && pagefind --site public`
 - Publish directory: `public`
 - Hugo version: `0.163.3`
 
-Production builds use Hugo's `baseURL`, which is set to `https://bite-size-bios.com/`. Branch deploys and PR previews override `baseURL` with Netlify's `DEPLOY_PRIME_URL`, so preview links still point at their own deployed URL.
+Production builds use Hugo's `baseURL`, which is set to `https://bite-size-bios.com/`. Branch deploys and PR previews override `baseURL` with Netlify's `DEPLOY_PRIME_URL`, so preview links still point at their own deployed URL. Each build then generates the Pagefind search index.
 
 ## Current Content
 

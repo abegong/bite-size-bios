@@ -1,6 +1,6 @@
 [build]
   base = "site"
-  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir'
+  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir && PATH="./node_modules/.bin:$PATH" pagefind --site public'
   publish = "public"
 
 [build.environment]
@@ -9,7 +9,7 @@
   HUGO_CACHEDIR = "/opt/build/cache/hugo_cache"
 
 [context.deploy-preview]
-  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir --baseURL "${DEPLOY_PRIME_URL}/"'
+  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir --baseURL "${DEPLOY_PRIME_URL}/" && PATH="./node_modules/.bin:$PATH" pagefind --site public'
 
 [context.branch-deploy]
-  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir --baseURL "${DEPLOY_PRIME_URL}/"'
+  command = 'PATH="./node_modules/.bin:$PATH" hugo --gc --minify --cleanDestinationDir --baseURL "${DEPLOY_PRIME_URL}/" && PATH="./node_modules/.bin:$PATH" pagefind --site public'
