@@ -10,7 +10,7 @@ categories = ["power", "crime", "historical-memory"]
 archives = ["2026/07"]
 +++
 
-## The Hook: The Blood Countess — or the Victim of a Conspiracy?
+## The Blood Countess — or the Victim of a Conspiracy?
 
 On a winter night in December 1610, soldiers burst into Castle Čachtice in the Kingdom of Hungary. They found Countess Elizabeth Báthory in her chambers, surrounded by the trappings of wealth and power that had defined her fifty years of life. In the castle's lower rooms, they discovered something else: girls, dead and dying, bearing marks of torture.
 
@@ -28,7 +28,7 @@ The answer, four centuries later, remains as dark and contested as the castle ro
 
 ---
 
-## Early Life & Formation
+## A Childhood Among Fortresses and Family Power
 
 Elizabeth Báthory was born on August 7, 1560, at the family estate in Nyírbátor, in what was then Royal Hungary. She was not merely noble — she was aristocracy of the highest order. Her father, Baron George VI Báthory, belonged to the Ecsed branch of the House of Báthory, one of the most powerful families in Eastern Europe. Her mother, Baroness Anna Báthory of Somlyó, came from the other branch of the same family. Through her mother, Elizabeth was the niece of Stephen Báthory, Prince of Transylvania, who would become King of Poland and Grand Duke of Lithuania.
 
@@ -42,7 +42,7 @@ There is a disputed story that at age thirteen, before her marriage, Elizabeth g
 
 ---
 
-## The Rise: Marriage, Power, and the Long War
+## Marriage, Power, and the Long War
 
 In 1575, at age fifteen, Elizabeth married Count Ferenc Nádasdy, a union arranged between two of Hungary's great families. The wedding took place at the palace of Varannó, and it combined vast landholdings in both Transylvania and the Kingdom of Hungary. Nádasdy's wedding gift to his bride was the household at Castle Čachtice, a fortress in the Little Carpathians that would become synonymous with her name.
 
@@ -58,7 +58,7 @@ Her nephew, Prince Gábor Báthory, ruled Transylvania and harbored ambitions fo
 
 ---
 
-## The Work: The Accusations
+## The Accusations
 
 The first complaints against Elizabeth emerged between 1602 and 1604. A Lutheran minister named István Magyari made public accusations and petitioned the court in Vienna. Nothing came of them immediately — perhaps because Ferenc Nádasdy was still alive, perhaps because the Báthory-Nádasdy alliance was too powerful to challenge openly.
 
@@ -76,7 +76,7 @@ Four of Elizabeth's servants were arrested, tortured, and confessed. They were e
 
 ---
 
-## The Climax: Imprisonment and the Question of Guilt
+## Imprisonment and the Question of Guilt
 
 The legal circumstances of Elizabeth's case were extraordinary. She was a noblewoman accused of crimes against other nobles and commoners alike, in a kingdom where noble privilege normally made such prosecutions unthinkable. She was imprisoned without trial, in a manner that suggests her family and the crown wanted the matter kept quiet.
 
@@ -92,7 +92,7 @@ The truth may lie somewhere between these extremes. Elizabeth Báthory may have 
 
 ---
 
-## Legacy & Reckoning
+## The Castle of Her Own Legend
 
 Elizabeth Báthory died on August 21, 1614, after three and a half years of imprisonment. She was fifty-four years old. Her body was buried, but her legend was just beginning.
 

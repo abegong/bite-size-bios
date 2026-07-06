@@ -10,7 +10,7 @@ categories = ["activism", "empire", "political-leadership"]
 archives = ["2026/07"]
 +++
 
-## The Hook: A Frail Old Man Against the British Raj
+## A Frail Old Man Against the British Raj
 
 On March 12, 1930, a 61-year-old man wrapped in a homespun loincloth set out from his ashram with seventy-eight followers. His destination: the coastal village of Dandi, 241 miles away. His mission: to make salt.
 
@@ -20,7 +20,7 @@ What Gandhi had was something harder to quantify: the moral conviction that an e
 
 Gandhi would be imprisoned, beaten, and eventually assassinated. But he would live to see India free. And he would change the world.
 
-## Early Life: The Making of a Mahatma
+## The Making of a Mahatma
 
 Mohandas Gandhi was born on October 2, 1869, in Porbandar, a small coastal town in what is now the Indian state of Gujarat. His father, Karamchand Gandhi, was the dewan—chief minister—of Porbandar state, a minor princely kingdom within the British Raj. His mother, Putlibai, was a devout woman from the Pranami Vaishnava tradition, whose religious texts drew from Hindu, Muslim, and Christian sources alike. She would take the hardest religious vows and keep them without flinching; fasting for days was nothing to her. Her son would inherit this capacity for self-denial and transform it into a political weapon.
 
@@ -36,7 +36,7 @@ Called to the bar in 1891, Gandhi returned to India at age twenty-two. His mothe
 
 It seemed Gandhi was destined for obscurity. Then, in 1893, a Muslim merchant named Dada Abdullah offered him a year's work in South Africa. The salary was modest—£105 plus expenses. Gandhi accepted, thinking it would be a brief sojourn. He would spend twenty-one years there, and emerge as someone the world would never forget.
 
-## Rise and Work: From Shy Lawyer to Mass Leader
+## From Shy Lawyer to Mass Leader
 
 Gandhi arrived in South Africa in April 1893, a British subject traveling within the Empire. He expected, as an educated barrister, to be treated with respect. Instead, he encountered the brutal reality of racial hierarchy.
 
@@ -54,7 +54,7 @@ By 1920, Gandhi was the undisputed leader of the Indian National Congress, the p
 
 The British didn't know what to make of him. Here was a man who could fill the streets with hundreds of thousands of protesters, yet refused to authorize violence. He would march to prison as calmly as another man might walk to market. He undertook hunger strikes that brought him to the edge of death, not to coerce his enemies, he insisted, but to purify himself and stir the conscience of his oppressors. It was maddening. It was effective.
 
-## Climax: The Salt March and the Road to Freedom
+## The Salt March and the Road to Freedom
 
 The Dandi Salt March of 1930 was Gandhi's masterstroke. The British monopoly on salt production was a perfect symbol of colonial exploitation—taxing a mineral essential to life, harvested for free from India's own shores. Gandhi announced he would march to the sea and make salt in open defiance of the law.
 
@@ -74,7 +74,7 @@ On January 30, 1948, Gandhi walked to his evening prayer meeting at Birla House 
 
 "Hē Ram"—"Oh God"—were Gandhi's last words. He died instantly.
 
-## Legacy: The Saint and the Strategist
+## The Saint and the Strategist
 
 Gandhi's assassination shocked the world. Albert Einstein wrote: "Generations to come will scarce believe that such a one as this ever in flesh and blood walked upon this earth." Martin Luther King Jr., then a young seminary student, would later call Gandhi's autobiography one of the books that changed his life, and would adapt satyagraha into the American civil rights movement.
 

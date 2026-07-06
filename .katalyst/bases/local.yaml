@@ -28,21 +28,6 @@ collections:
             suffix: index.md
             target: filename-ext
           - kind: text_requires
-            pattern: "^## The Hook\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Early Life|Early Life & Formation)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Rise|Rise and Work)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Climax|Climax)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Legacy|Legacy & Reckoning)\\b"
-            target: line
-          - kind: text_requires
             pattern: "^## Sources\\b"
             target: line
       - when: "description"
@@ -69,24 +54,6 @@ collections:
           - kind: filesystem_name_affix
             suffix: biography.md
             target: filename-ext
-          - kind: text_requires
-            pattern: "^## The Hook\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Early Life|Early Life & Formation)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Rise|Rise and Work)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Work|The Rise|Rise and Work)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Climax|Climax)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Legacy|Legacy & Reckoning)\\b"
-            target: line
           - kind: text_requires
             pattern: "^## Sources\\b"
             target: line
