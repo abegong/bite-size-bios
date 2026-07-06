@@ -4,7 +4,7 @@
   "private": true,
   "description": "Hugo site for Bite-Size Bios.",
   "scripts": {
-    "build": "hugo --gc --minify --cleanDestinationDir",
+    "build": "hugo --gc --minify --cleanDestinationDir && pagefind --site public",
     "dev": "hugo server -D --bind 127.0.0.1"
   },
   "devDependencies": {

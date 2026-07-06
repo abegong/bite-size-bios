@@ -1,0 +1,23 @@
+<div
+  class="relative order-last w-full md:order-none md:mx-4 md:max-w-md md:flex-1"
+  data-site-search
+  data-pagefind-url="{{ "pagefind/pagefind.js" | relURL }}"
+  data-pagefind-ignore
+>
+  <form role="search" class="relative" data-site-search-form>
+    <input
+      type="search"
+      name="q"
+      autocomplete="off"
+      aria-label="Search biographies"
+      placeholder="Search biographies"
+      class="w-full rounded-md border border-white/20 bg-white/10 px-3 py-2 text-sm text-white placeholder:text-white/60 shadow-inner transition-colors duration-150 focus:border-white/50 focus:bg-white/15 focus:outline-none"
+      data-site-search-input
+    />
+  </form>
+  <div
+    class="absolute left-0 right-0 top-full z-50 mt-2 hidden max-h-96 overflow-y-auto rounded-md border border-gray-200 bg-white text-gray-900 shadow-lg dark:border-warmgray-700 dark:bg-warmgray-900 dark:text-white"
+    data-site-search-results
+  ></div>
+</div>
+<script type="module" src="{{ "js/search.js" | relURL }}"></script>
