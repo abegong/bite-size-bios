@@ -20,8 +20,12 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 │   ├── biographies/
 │   │   └── <initial>/<slug>/
 │   │       ├── biography.md
+│   │       ├── image-notes.md
 │   │       └── research-links.md
+│   ├── scripts/
+│   │   └── create_bio_image.py
 │   └── skills/
+│       ├── create-bio-image.md
 │       ├── research-bio.md
 │       └── write-bio.md
 └── site/
@@ -39,9 +43,10 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 
 1. Create a folder at `research/biographies/<initial>/<slug>/`.
 2. Use `research/skills/research-bio.md` to add `research-links.md` with credible primary, institutional, academic, or otherwise reliable sources.
-3. Draft the working biography in `biography.md`.
-4. Use `research/skills/write-bio.md` as the reusable drafting guide.
-5. Publish by adapting the draft into `site/content/biographies/<slug>/index.md`.
+3. Use `research/skills/create-bio-image.md` to create `image-notes.md` and a matching portrait asset under `site/static/img/biographies/`.
+4. Draft the working biography in `biography.md`.
+5. Use `research/skills/write-bio.md` as the reusable drafting guide.
+6. Publish by adapting the draft into `site/content/biographies/<slug>/index.md`.
 
 Keep research notes in `research/` unless they are intentionally prepared for publication.
 
