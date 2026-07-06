@@ -1,3 +1,7 @@
+---
+kind: biography
+---
+
 # John Brown (1800–1859)
 
 ## The Hook: The Man Who Would Not Wait

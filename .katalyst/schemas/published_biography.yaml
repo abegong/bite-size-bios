@@ -1,0 +1,51 @@
+type: object
+additionalProperties: false
+required:
+  - title
+  - lifespan
+  - date
+  - draft
+  - summary
+  - image
+  - tags
+  - categories
+  - archives
+properties:
+  title:
+    type: string
+    minLength: 1
+  lifespan:
+    type: string
+    pattern: "^[0-9?]{3,4}-[0-9?]{3,4}$"
+  date:
+    type: string
+  draft:
+    type: boolean
+  summary:
+    type: string
+    minLength: 40
+    maxLength: 180
+  image:
+    type: string
+    pattern: "^/img/biographies/.+\\.(jpg|jpeg|png|webp)$"
+  tags:
+    type: array
+    minItems: 1
+    uniqueItems: true
+    items:
+      type: string
+      pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  categories:
+    type: array
+    minItems: 1
+    uniqueItems: true
+    items:
+      type: string
+      pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+  archives:
+    type: array
+    minItems: 1
+    uniqueItems: true
+    items:
+      type: string
+      pattern: "^[0-9]{4}/[0-9]{2}$"

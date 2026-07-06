@@ -1,3 +1,7 @@
+---
+kind: biography
+---
+
 # Mahatma Gandhi: The Man Who Defeated an Empire Without Firing a Shot
 
 ## The Hook: A Frail Old Man Against the British Raj
