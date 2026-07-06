@@ -20,15 +20,35 @@
   --bio-mist: #dae6e7;
   --bio-ink: #203132;
   --bio-surface: #263b3c;
+  --bio-text: var(--bio-ink);
   --bio-red-text: #a81522;
+  --bio-page-bg: var(--bio-mist);
+  --bio-header-bg: var(--bio-surface);
+  --bio-header-text: var(--bio-mist);
   --bio-card: #f8fbfb;
   --bio-card-border: rgb(32 49 50 / 0.1);
   --bio-muted: rgb(32 49 50 / 0.68);
   --bio-soft: rgb(38 59 60 / 0.08);
   --bio-soft-strong: rgb(38 59 60 / 0.14);
+  --bio-chip-accent-bg: rgb(237 41 57 / 0.1);
+  --bio-chip-accent-bg-hover: rgb(237 41 57 / 0.16);
+  --bio-chip-accent-text: var(--bio-red-text);
 }
 
 .dark:root {
+  --bio-red-text: #ff9ca5;
+  --bio-text: var(--bio-mist);
+  --bio-page-bg: var(--bio-ink);
+  --bio-header-bg: #182526;
+  --bio-header-text: var(--bio-mist);
+  --bio-card: var(--bio-surface);
+  --bio-card-border: rgb(218 230 231 / 0.12);
+  --bio-muted: rgb(218 230 231 / 0.7);
+  --bio-soft: rgb(218 230 231 / 0.08);
+  --bio-soft-strong: rgb(218 230 231 / 0.14);
+  --bio-chip-accent-bg: rgb(237 41 57 / 0.2);
+  --bio-chip-accent-bg-hover: rgb(237 41 57 / 0.28);
+  --bio-chip-accent-text: #ffd0d4;
   --pagefind-ui-primary: #dae6e7;
   --pagefind-ui-text: #dae6e7;
   --pagefind-ui-background: #203132;
@@ -40,22 +60,22 @@
 }
 
 body {
-  background: var(--bio-mist);
-  color: var(--bio-ink);
+  background: var(--bio-page-bg);
+  color: var(--bio-text);
 }
 
 .bio-page {
-  background: var(--bio-mist);
-  color: var(--bio-ink);
+  background: var(--bio-page-bg);
+  color: var(--bio-text);
 }
 
 .bio-header {
-  background: var(--bio-surface);
-  color: var(--bio-mist);
+  background: var(--bio-header-bg);
+  color: var(--bio-header-text);
 }
 
 .bio-header .text-white {
-  color: var(--bio-mist);
+  color: var(--bio-header-text);
 }
 
 .bio-header .text-white\/70 {
@@ -77,9 +97,13 @@ body {
   box-shadow: 0 10px 24px rgb(32 49 50 / 0.12);
 }
 
+.dark .bio-card:hover {
+  box-shadow: 0 10px 24px rgb(0 0 0 / 0.18);
+}
+
 .bio-title,
 .bio-heading {
-  color: var(--bio-ink);
+  color: var(--bio-text);
 }
 
 .bio-muted {
@@ -104,7 +128,7 @@ body {
 
 .bio-chip {
   background: var(--bio-soft);
-  color: var(--bio-ink);
+  color: var(--bio-text);
 }
 
 .bio-chip:hover {
@@ -112,33 +136,50 @@ body {
 }
 
 .bio-chip-accent {
-  background: rgb(237 41 57 / 0.1);
-  color: #a81522;
+  background: var(--bio-chip-accent-bg);
+  color: var(--bio-chip-accent-text);
 }
 
 .bio-chip-accent:hover {
-  background: rgb(237 41 57 / 0.16);
+  background: var(--bio-chip-accent-bg-hover);
 }
 
 .prose {
-  --tw-prose-body: var(--bio-ink);
-  --tw-prose-headings: var(--bio-ink);
+  --tw-prose-body: var(--bio-text);
+  --tw-prose-headings: var(--bio-text);
   --tw-prose-lead: var(--bio-muted);
   --tw-prose-links: #a81522;
-  --tw-prose-bold: var(--bio-ink);
+  --tw-prose-bold: var(--bio-text);
   --tw-prose-counters: var(--bio-muted);
   --tw-prose-bullets: var(--bio-red);
   --tw-prose-hr: var(--bio-card-border);
-  --tw-prose-quotes: var(--bio-ink);
+  --tw-prose-quotes: var(--bio-text);
   --tw-prose-quote-borders: var(--bio-red);
   --tw-prose-captions: var(--bio-muted);
-  --tw-prose-code: var(--bio-ink);
+  --tw-prose-code: var(--bio-text);
+  --tw-prose-th-borders: var(--bio-card-border);
+  --tw-prose-td-borders: var(--bio-card-border);
+}
+
+.dark .prose {
+  --tw-prose-body: var(--bio-mist);
+  --tw-prose-headings: var(--bio-mist);
+  --tw-prose-lead: var(--bio-muted);
+  --tw-prose-links: #ffd0d4;
+  --tw-prose-bold: var(--bio-mist);
+  --tw-prose-counters: var(--bio-muted);
+  --tw-prose-bullets: var(--bio-red-text);
+  --tw-prose-hr: var(--bio-card-border);
+  --tw-prose-quotes: var(--bio-mist);
+  --tw-prose-quote-borders: var(--bio-red-text);
+  --tw-prose-captions: var(--bio-muted);
+  --tw-prose-code: var(--bio-mist);
   --tw-prose-th-borders: var(--bio-card-border);
   --tw-prose-td-borders: var(--bio-card-border);
 }
 
 .bg-gray-100 {
-  background-color: var(--bio-mist);
+  background-color: var(--bio-page-bg);
 }
 
 .bg-white {
@@ -157,7 +198,7 @@ body {
 .text-gray-900,
 .text-gray-700,
 .text-slate-700 {
-  color: var(--bio-ink);
+  color: var(--bio-text);
 }
 
 .text-gray-600,
