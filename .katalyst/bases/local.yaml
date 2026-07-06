@@ -100,3 +100,14 @@ collections:
             target: line
           - kind: text_requires
             pattern: "https?://"
+      - when: "kind=image-notes"
+        checks:
+          - kind: filesystem_name_affix
+            suffix: image-notes.md
+            target: filename-ext
+          - kind: text_requires
+            pattern: "^# .+Image Notes$"
+            target: line
+          - kind: text_requires
+            pattern: "^## Selected Output$"
+            target: line

@@ -8,3 +8,4 @@ properties:
     enum:
       - biography
       - research-links
+      - image-notes
