@@ -118,7 +118,7 @@ body {
   border-color: var(--bio-card-border);
 }
 
-.bio-rule > :not([hidden]) ~ :not([hidden]) {
+.bio-rule > :not([hidden]) {
   border-color: var(--bio-card-border);
 }
 
