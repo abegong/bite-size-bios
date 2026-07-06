@@ -4,7 +4,7 @@ kind: biography
 
 # John Brown (1800–1859)
 
-## The Hook: The Man Who Would Not Wait
+## The Man Who Would Not Wait
 
 On the morning of December 2, 1859, a 59-year-old man with a long white beard and piercing gray eyes climbed the steps to a gallows in Charles Town, Virginia. He wore a simple black suit and walked with the calm of someone going to church. Around his neck, the executioner placed a noose.
 
@@ -22,7 +22,7 @@ The answer, like the man himself, refuses to be simple.
 
 ---
 
-## Early Life & Formation
+## A Faith Forged on the Frontier
 
 John Brown was born on May 9, 1800, in Torrington, Connecticut, into a family steeped in both Puritan faith and anti-slavery conviction. His father, Owen Brown, was a prosperous tanner who would become a leading citizen of Hudson, Ohio—a town founded by abolitionists in what was then the Western Reserve wilderness. Owen hated slavery with a quiet ferocity, offering his home as a station on the Underground Railroad and serving as a trustee of Oberlin College, the radical institution that admitted Black students when others refused.
 
@@ -38,7 +38,7 @@ He remarried within a year. Mary Ann Day was seventeen, the younger sister of hi
 
 ---
 
-## The Rise: From Business Failure to Abolitionist Warrior
+## From Business Failure to Abolitionist Warrior
 
 Brown spent the 1820s and 1830s moving restlessly—Ohio, Pennsylvania, back to Ohio—trying to build a life that kept collapsing. In Pennsylvania, he established what may have been his most successful venture: a 200-acre farm with a two-story tannery and, hidden in his barn, a secret room for escaping slaves. For ten years, his farm served as a crucial Underground Railroad station. The Pennsylvania Department of Community and Economic Development later estimated that as many as 2,500 enslaved people passed through on their journey to Canada.
 
@@ -56,7 +56,7 @@ When Congress passed the Fugitive Slave Act in 1850—requiring citizens in free
 
 ---
 
-## The Work: Bleeding Kansas
+## Bleeding Kansas
 
 By 1855, Brown was fifty-five years old, bankrupt again, and increasingly convinced that words had failed. The Kansas-Nebraska Act had opened the western territories to slavery, and pro-slavery and anti-slavery settlers were flooding into Kansas, turning it into a battlefield.
 
@@ -70,7 +70,7 @@ For two and a half years after Kansas, Brown traveled through New England, raisi
 
 ---
 
-## The Climax: Harpers Ferry
+## Harpers Ferry
 
 On the night of October 16, 1859, Brown and his men crossed the Potomac River and seized the federal armory at Harpers Ferry, Virginia. His plan was audacious: capture the weapons, arm local slaves, and begin a liberation movement that would spread south along the Appalachian Mountains, creating a corridor of freedom.
 
@@ -86,7 +86,7 @@ On December 2, 1859, he was hanged. He was fifty-nine years old.
 
 ---
 
-## Legacy & Reckoning
+## A Martyr, a Warning, and an Unsettled Question
 
 John Brown did not live to see the Civil War, but he did as much as any single person to ensure it would come. The South, terrified by the raid, began organizing militias and secession conventions. The North, moved by Brown's dignity in death and the moral clarity of his cause, found it harder to compromise.
 

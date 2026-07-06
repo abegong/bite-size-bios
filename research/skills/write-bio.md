@@ -54,29 +54,31 @@ Before drafting, read the whole `research-links.md` dossier and map it into the 
 
 ## Outline Format
 
-### 1. The Hook (200–300 words)
+Use this as the story structure, not as literal section titles. Published headings should sound specific to the person and moment, such as "The Machine That Talked Back" or "Harpers Ferry," rather than "The Hook" or "The Climax."
+
+### 1. Opening scene (200–300 words)
 - Open with a vivid scene, a bold claim, or a pivotal moment
 - Establish stakes and why this person matters
 - Draw from Hook Candidates and Research Frame
 
-### 2. Early Life & Formation (400–500 words)
+### 2. Formation (400–500 words)
 - Birth, family, upbringing
 - Key influences and formative experiences
 - The world they entered — historical context
 - Draw from Timeline Notes, World Context, and Key People
 
-### 3. The Rise / The Work (500–700 words)
+### 3. Central work (500–700 words)
 - Their central project, mission, or struggle
 - Key events, decisions, and turning points
 - Conflicts, setbacks, and how they responded
 - Draw from Conflicts, Character and Motivation, and the strongest source base
 
-### 4. The Climax (400–500 words)
+### 4. Defining turn (400–500 words)
 - The defining moment — success, failure, or both
 - Consequences and immediate aftermath
 - Draw from Climax Candidates and preserve disputed details
 
-### 5. Legacy & Reckoning (300–400 words)
+### 5. Afterlife and reckoning (300–400 words)
 - How they were remembered (or forgotten)
 - Reassessment over time
 - Why they still matter

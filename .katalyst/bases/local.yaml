@@ -28,21 +28,6 @@ collections:
             suffix: index.md
             target: filename-ext
           - kind: text_requires
-            pattern: "^## The Hook\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Early Life|Early Life & Formation)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Rise|Rise and Work)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Climax|Climax)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Legacy|Legacy & Reckoning)\\b"
-            target: line
-          - kind: text_requires
             pattern: "^## Sources\\b"
             target: line
       - when: "description"
@@ -70,24 +55,6 @@ collections:
             suffix: biography.md
             target: filename-ext
           - kind: text_requires
-            pattern: "^## The Hook\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Early Life|Early Life & Formation)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Rise|Rise and Work)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Work|The Rise|Rise and Work)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (The Climax|Climax)\\b"
-            target: line
-          - kind: text_requires
-            pattern: "^## (Legacy|Legacy & Reckoning)\\b"
-            target: line
-          - kind: text_requires
             pattern: "^## Sources\\b"
             target: line
       - when: "kind=research-links"
@@ -100,3 +67,14 @@ collections:
             target: line
           - kind: text_requires
             pattern: "https?://"
+      - when: "kind=image-notes"
+        checks:
+          - kind: filesystem_name_affix
+            suffix: image-notes.md
+            target: filename-ext
+          - kind: text_requires
+            pattern: "^# .+Image Notes$"
+            target: line
+          - kind: text_requires
+            pattern: "^## Selected Output$"
+            target: line
