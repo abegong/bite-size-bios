@@ -29,7 +29,7 @@ summaryLength = 30
   [params.widgets]
     display = true
     mobile = true
-    widgets = ["archive", "category", "tags", "social", "recent"]
+    widgets = ["archive", "category", "tags", "recent"]
 
   [params.share]
     enable = true
