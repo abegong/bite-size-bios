@@ -1,10 +1,10 @@
 {{ if .Site.Taxonomies.tags }}
   <div
-    class="bg-white rounded-xl shadow-sm mb-4 overflow-hidden dark:bg-warmgray-900"
+    class="bio-card mb-4 overflow-hidden"
   >
-    <div class="px-5 py-4 border-b border-gray-100 dark:border-warmgray-700">
+    <div class="px-5 py-4 border-b bio-rule">
       <p
-        class="text-xs font-semibold uppercase tracking-widest text-gray-500 dark:text-gray-400"
+        class="bio-kicker text-xs font-semibold uppercase tracking-widest"
       >
         Tags
       </p>
@@ -19,7 +19,7 @@
             class="inline-block mr-1.5 mb-1.5"
           >
             <span
-              class="bg-gray-100 text-gray-700 rounded-full px-3 py-1 text-xs font-medium hover:bg-sky-50 hover:text-sky-700 transition-colors duration-150 dark:bg-warmgray-800 dark:text-gray-300 dark:hover:bg-warmgray-700"
+              class="bio-chip rounded-full px-3 py-1 text-xs font-medium transition-colors duration-150"
             >
               {{ $termName }}
             </span></a

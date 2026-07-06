@@ -1,0 +1,172 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@source "hugo_stats.json";
+
+@theme {
+  --color-bio-red: #ed2939;
+  --color-bio-mist: #dae6e7;
+  --color-bio-ink: #203132;
+  --color-bio-surface: #263b3c;
+  --color-warmgray-600: #52585b;
+  --color-warmgray-700: #3f4446;
+  --color-warmgray-800: #27292a;
+  --color-warmgray-900: #181a1b;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bio-red: #ed2939;
+  --bio-mist: #dae6e7;
+  --bio-ink: #203132;
+  --bio-surface: #263b3c;
+  --bio-red-text: #a81522;
+  --bio-card: #f8fbfb;
+  --bio-card-border: rgb(32 49 50 / 0.1);
+  --bio-muted: rgb(32 49 50 / 0.68);
+  --bio-soft: rgb(38 59 60 / 0.08);
+  --bio-soft-strong: rgb(38 59 60 / 0.14);
+}
+
+.dark:root {
+  --pagefind-ui-primary: #dae6e7;
+  --pagefind-ui-text: #dae6e7;
+  --pagefind-ui-background: #203132;
+  --pagefind-ui-border: #263b3c;
+  --pagefind-ui-tag: #263b3c;
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-image-border-radius: 4px;
+}
+
+body {
+  background: var(--bio-mist);
+  color: var(--bio-ink);
+}
+
+.bio-page {
+  background: var(--bio-mist);
+  color: var(--bio-ink);
+}
+
+.bio-header {
+  background: var(--bio-surface);
+  color: var(--bio-mist);
+}
+
+.bio-header .text-white {
+  color: var(--bio-mist);
+}
+
+.bio-header .text-white\/70 {
+  color: rgb(218 230 231 / 0.72);
+}
+
+.bio-header .text-white\/80 {
+  color: rgb(218 230 231 / 0.82);
+}
+
+.bio-card {
+  background: var(--bio-card);
+  border: 1px solid var(--bio-card-border);
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgb(32 49 50 / 0.08);
+}
+
+.bio-card:hover {
+  box-shadow: 0 10px 24px rgb(32 49 50 / 0.12);
+}
+
+.bio-title,
+.bio-heading {
+  color: var(--bio-ink);
+}
+
+.bio-muted {
+  color: var(--bio-muted);
+}
+
+.bio-kicker {
+  color: var(--bio-red-text);
+}
+
+.bio-rule {
+  border-color: var(--bio-card-border);
+}
+
+.bio-rule > :not([hidden]) ~ :not([hidden]) {
+  border-color: var(--bio-card-border);
+}
+
+.bio-list-link:hover {
+  background: var(--bio-soft);
+}
+
+.bio-chip {
+  background: var(--bio-soft);
+  color: var(--bio-ink);
+}
+
+.bio-chip:hover {
+  background: var(--bio-soft-strong);
+}
+
+.bio-chip-accent {
+  background: rgb(237 41 57 / 0.1);
+  color: #a81522;
+}
+
+.bio-chip-accent:hover {
+  background: rgb(237 41 57 / 0.16);
+}
+
+.prose {
+  --tw-prose-body: var(--bio-ink);
+  --tw-prose-headings: var(--bio-ink);
+  --tw-prose-lead: var(--bio-muted);
+  --tw-prose-links: #a81522;
+  --tw-prose-bold: var(--bio-ink);
+  --tw-prose-counters: var(--bio-muted);
+  --tw-prose-bullets: var(--bio-red);
+  --tw-prose-hr: var(--bio-card-border);
+  --tw-prose-quotes: var(--bio-ink);
+  --tw-prose-quote-borders: var(--bio-red);
+  --tw-prose-captions: var(--bio-muted);
+  --tw-prose-code: var(--bio-ink);
+  --tw-prose-th-borders: var(--bio-card-border);
+  --tw-prose-td-borders: var(--bio-card-border);
+}
+
+.bg-gray-100 {
+  background-color: var(--bio-mist);
+}
+
+.bg-white {
+  background-color: var(--bio-card);
+}
+
+.bg-gray-800,
+.bg-gray-900 {
+  background-color: var(--bio-surface);
+}
+
+.bg-sky-600 {
+  background-color: var(--bio-red);
+}
+
+.text-gray-900,
+.text-gray-700,
+.text-slate-700 {
+  color: var(--bio-ink);
+}
+
+.text-gray-600,
+.text-gray-500,
+.text-gray-400 {
+  color: var(--bio-muted);
+}
+
+.hover\:bg-gray-50:hover,
+.hover\:bg-gray-100:hover {
+  background-color: var(--bio-soft);
+}

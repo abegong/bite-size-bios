@@ -12,7 +12,7 @@ summaryLength = 30
 [params]
   description = "Short, readable bios for curious people."
   mainSections = ["biographies"]
-  base_color = "bg-gray-800"
+  base_color = "bg-bio-surface"
   paginator_pages = 5
   archive_dropdown = "false"
   tagsLimit = 20
