@@ -1,4 +1,5 @@
 +++
+image = "/img/biographies/nash-john.png"
 title = "John Nash"
 lifespan = "1928-2015"
 date = "2026-07-12"
