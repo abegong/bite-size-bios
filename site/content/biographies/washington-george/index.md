@@ -4,6 +4,7 @@ lifespan = "1732-1799"
 date = "2026-07-12"
 draft = false
 summary = "A narrative biography of George Washington, the ambitious general and first president whose greatest acts were giving power back — and whose liberty rested on the people he enslaved."
+image = "/img/biographies/washington-george.png"
 tags = ["american-revolution", "american-history", "us-presidency"]
 categories = ["military-leadership", "political-leadership", "slavery"]
 archives = ["2026/07"]
