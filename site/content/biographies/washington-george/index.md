@@ -1,4 +1,5 @@
 +++
+image = "/img/biographies/washington-george.png"
 title = "George Washington"
 lifespan = "1732-1799"
 date = "2026-07-12"
