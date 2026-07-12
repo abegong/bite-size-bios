@@ -1,0 +1,73 @@
+---
+kind: biography
+---
+
+# George Washington: The Man Who Gave Power Back
+
+## Annapolis, 1783
+
+On December 23, 1783, a tall Virginian in a blue-and-buff uniform stood before Congress in the Maryland State House and did something almost no victorious general in history had ever done voluntarily: he quit.
+
+George Washington had commanded the Continental Army for eight and a half years. He had held it together through starvation, smallpox, mutiny, and defeat after defeat, and he had finally won. The war was over. The British were gone. Congress — the body he now addressed — was broke, feeble, and widely despised. His officers had suggested, more than once, that he take charge himself. Everyone in Europe assumed he would. History offered exactly one script for men in his position, and it ended with a crown, or at least a dictatorship politely renamed.
+
+Instead, Washington's hands trembled as he read a short speech, returned the parchment commission he had carried since 1775, and asked leave "to retire from the great theatre of Action." Then he mounted his horse and rode home to his farm, hurrying to make Christmas dinner at Mount Vernon.
+
+When the painter Benjamin West told King George III that Washington intended to give up power and return to farming, the king reportedly replied that if he did that, he would be the greatest man in the world.
+
+The remark, secondhand as it is, captures why Washington still matters. His battlefield record was mediocre; other founders were better writers, better thinkers, better talkers. What Washington had was something rarer and harder: the discipline to walk away from power — twice — and in doing so, to make a republic real. That is one half of his story. The other half is that the liberty he embodied was built, all his life, on the labor of people he owned.
+
+## A Surveyor in the Ohio Country
+
+George Washington was born on February 22, 1732, at Popes Creek in Westmoreland County, Virginia, the eldest child of Augustine Washington and his second wife, Mary Ball. The family belonged to Virginia's middling planter class — comfortable, ambitious, and well below the great tobacco dynasties. When George was eleven his father died, ending any hope of the English education his older half-brothers had received. His schooling stopped in his mid-teens. Alone among the major founders, Washington never attended college, a gap he felt keenly all his life.
+
+What he had instead was a body built for the frontier — six foot two, a superb horseman — and a half-brother, Lawrence, fourteen years older, whom he adored. Lawrence had married into the Fairfax family, the most powerful clan in northern Virginia, and through that connection sixteen-year-old George found work surveying Fairfax lands in the Shenandoah Valley. Surveying taught him the wilderness, gave him cash, and started a lifelong habit: buying land. It also fixed his ambitions on the west.
+
+In 1751 he made his only trip abroad, accompanying the tubercular Lawrence to Barbados, where George caught smallpox and survived — an immunity that would later matter enormously to a general commanding armies ravaged by the disease. Lawrence died the next year, and George eventually came into his estate on the Potomac: Mount Vernon.
+
+Ambition found its outlet in the militia. In 1753 Virginia's governor sent the twenty-one-year-old major through the winter woods to warn French forces out of the Ohio Country. The mission made his name; the next one nearly ruined it. In May 1754, Washington's party ambushed a small French detachment at Jumonville Glen. In the confused aftermath the French commander, Jumonville, was killed — by Washington's Indian ally Tanacharison, in most accounts — and France cried assassination. Weeks later Washington was cornered at the aptly named Fort Necessity and surrendered, the only surrender of his career. The young colonel's frontier skirmish helped ignite the French and Indian War, which spread into the Seven Years' War — a world war started, in part, by a twenty-two-year-old's blunder.
+
+Yet the war made him. In 1755, when General Braddock's column was massacred on the Monongahela, Washington rode through the slaughter rallying survivors, two horses shot from under him and four bullets through his coat. He emerged a colonial hero — and a resentful one, because the British army refused men like him a royal commission. In 1758 he resigned, married the wealthy widow Martha Dandridge Custis, and settled down to the life of a Virginia grandee: planter, land speculator, burgess. Martha's inheritance brought him a fortune — and eighty-four enslaved human beings, added to those he had inherited at age eleven.
+
+## The War He Won by Not Losing
+
+Washington spent the 1760s farming, sitting in the House of Burgesses, and souring on the British Empire. Like many planters he was perpetually in debt to London merchants, and like many colonists he read each new tax as proof that Americans were second-class Britons. By 1774 he was a delegate to the Continental Congress. In 1775, after Lexington and Concord, he attended its sessions in uniform — the only man in the room dressed for war. Congress took the hint, and it also did the math: the war was New England's, and the cause needed Virginia. On June 15, 1775, it made him commander in chief, unanimously.
+
+He took command of a rabble besieging Boston and, in March 1776, won his first victory without a battle, hauling captured cannon onto Dorchester Heights and forcing the British fleet to evacuate. Then came New York, and catastrophe. Outgeneraled and outnumbered through the fall of 1776, Washington lost Long Island, Manhattan, and Fort Washington, and retreated across New Jersey with an army dissolving around him — enlistments expiring, militia vanishing, Congress fleeing Philadelphia. Thomas Paine, marching with the remnant, wrote: "These are the times that try men's souls."
+
+What Washington did next saved the Revolution. On Christmas night 1776, in a storm of sleet, he ferried 2,400 men across the ice-choked Delaware and fell on the Hessian garrison at Trenton at dawn, taking nearly a thousand prisoners. Days later he slipped away from a British counterstroke and won again at Princeton. As battles they were small; as theater they were everything. The cause was alive.
+
+The pattern of the war was set. Washington lost more battles than he won — Brandywine, Germantown, the misery of Valley Forge, where perhaps 2,000 of his men died of disease and exposure through the winter of 1777–78. But he had grasped the war's real logic: he did not need to defeat the British army, only to keep his own in existence until Britain tired or France intervened. His army *was* the Revolution. He held it together with drill (the Prussian volunteer Steuben rebuilt it at Valley Forge), with inoculation against smallpox, with theatrical appeals and iron patience, while surviving whispering campaigns against his command and the treason of Benedict Arnold. When the French alliance finally delivered a fleet, he pounced: in October 1781, Washington, Rochambeau, and Admiral de Grasse trapped Cornwallis at Yorktown, and the surrender of 8,000 British troops effectively ended the war.
+
+His hardest victory came after the fighting stopped. In March 1783, at the army's camp at Newburgh, New York, unpaid officers circulated calls to turn the army against Congress — the classic first act of every failed republic. Washington appeared unannounced at their meeting and, fumbling to read a letter, put on his new spectacles with an apology: "Gentlemen, you will permit me to put on my spectacles, for I have not only grown gray but almost blind in the service of my country." Hardened officers wept. The conspiracy died in the room. Nine months later he handed back his commission at Annapolis and went home.
+
+## Inventing the Presidency
+
+Retirement lasted four years. The Confederation was failing — states squabbling, debts unpaid, an armed uprising of Massachusetts farmers in 1786–87 terrifying the propertied classes — and in 1787 Washington reluctantly agreed to preside over the Constitutional Convention in Philadelphia. He said almost nothing all summer; he didn't need to. His presence in the chair was the argument. Everyone knew the powerful new executive the delegates were designing would be filled first by the one man who had already proven he would give power back. The electoral college chose him unanimously — twice, in 1789 and 1792, a distinction no other president has ever matched.
+
+"I walk on untrodden ground," he wrote. Every act of the first presidency hardened into precedent, and Washington knew it. He built the cabinet from nothing and stocked it with the ablest men available regardless of their mutual loathing — Thomas Jefferson at State, Alexander Hamilton at Treasury. He accepted "Mr. President" over the monarchical titles the Senate floated. He backed Hamilton's financial program that gave the new government credit, put down the Whiskey Rebellion in 1794 by personally leading militia into the field — the only sitting president ever to command troops — and then pardoned the convicted rebels: force, followed by mercy, both precedents.
+
+The job gave him little joy. His own cabinet split into warring camps, Hamilton's commercial nationalists against Jefferson's agrarian republicans, and their feud birthed the party system Washington despised. When revolutionary France went to war with Britain in 1793, he issued the Proclamation of Neutrality, judging that the fragile republic needed peace more than gratitude to its old ally. The unpopular Jay Treaty with Britain in 1795 bought that peace at the cost of his own sanctity: for the first time, the press attacked Washington himself.
+
+He could have been president for life; nearly everyone expected him to die in office. Instead, in September 1796, he published his Farewell Address — drafted with Hamilton — declining a third term and warning the country against the "baneful effects of the spirit of party," against sectional jealousy, and against "permanent alliances" abroad. Then, in March 1797, he stood quietly at John Adams's inauguration while power passed, peacefully, from one elected citizen to another. It was the first time in modern history anyone had seen such a thing. The two-term precedent he set held for 144 years, until Franklin Roosevelt broke it — after which the country wrote Washington's example into the Constitution.
+
+## The Ledger at Mount Vernon
+
+Washington got thirty-three months of retirement. On December 12, 1799, he spent five hours riding his farms through snow, hail, and freezing rain, and sat down to dinner in wet clothes. Two nights later he woke unable to breathe, his throat closing from what modern physicians read as acute bacterial epiglottitis. His doctors, following the best practice of the day, bled him four times — roughly five pints, perhaps forty percent of his blood. He faced death with the composure he had spent a lifetime rehearsing, checking his own pulse at the end. "'Tis well," he told his secretary Tobias Lear, and died between ten and eleven on the night of December 14, 1799. Congress's eulogy, written by his old cavalry officer Henry Lee, fixed the epitaph: "First in war, first in peace, and first in the hearts of his countrymen."
+
+The mythmaking began at once. Parson Weems invented the cherry tree fable within a few years ("I cannot tell a lie"), and the man disappeared into marble. The famous dentures were not wooden: they were ivory, metal, and human teeth — some of them purchased from enslaved people, a detail Mount Vernon's own ledgers record.
+
+That detail points at the reckoning the marble long concealed. Washington was an enslaver from the age of eleven until the hour of his death. In 1799, 317 enslaved men, women, and children lived and worked on Mount Vernon's five farms — more than ninety percent of the estate's population. He pursued those who escaped: when Ona Judge, one of Martha's enslaved maids, fled the presidential household in Philadelphia in 1796, the president of the United States spent years quietly trying to recapture her, and never succeeded. While the government sat in Philadelphia he rotated his enslaved servants back to Virginia to keep Pennsylvania's gradual-emancipation law from freeing them.
+
+Privately, after the Revolution, he wrote of his wish to see slavery abolished "by slow, sure, & imperceptible degrees." Publicly, he never said a word. His one act came from the grave: his will freed the 123 people he owned outright — the law gave him no power over the Custis-estate people — though only after Martha's death, and only his valet William Lee, who had been at his side through the entire war, was freed immediately. Martha, understandably uneasy in a house full of people whose freedom awaited her funeral, freed them early, in 1801. Among the founding generation's slaveholding presidents, Washington alone freed all the people he owned; he also could have done it while alive, and chose not to. Both facts are true, and neither cancels the other.
+
+What survives the reckoning is the thing George III found unbelievable. Washington was not the ablest general of his age, nor its finest mind. He was something the age needed more: a man of towering ambition who understood that in a republic, the surest way to keep power's rewards — honor, trust, a name that outlives you — is to hand power back. Twice he stood where every precedent said "take it," and twice he went home to his farm. Republics since have lived and died on whether their generals and presidents could imitate him. That is why, more than two centuries later, the example still gets invoked at every peaceful transfer of power: the first one was his.
+
+## Sources
+
+1. George Washington's Mount Vernon — Digital Encyclopedia and slavery resources (mountvernon.org): "Ten Facts About Washington & Slavery," "A Decision to Free His Slaves," "Newburgh Conspiracy," "Resignation of Military Commission," "The Death of George Washington"
+2. Founders Online, National Archives — Washington's Farewell Address, September 19, 1796 (founders.archives.gov/documents/Washington/05-20-02-0440-0002)
+3. Tobias Lear — "A Minute Account of the Last Sickness and Death of George Washington" (Clements Library, University of Michigan)
+4. Chernow, Ron — *Washington: A Life* (Penguin Press, 2010)
+5. Ellis, Joseph J. — *His Excellency: George Washington* (Knopf, 2004)
+6. Wiencek, Henry — *An Imperfect God: George Washington, His Slaves, and the Creation of America* (Farrar, Straus and Giroux, 2003)
+7. Miller Center, University of Virginia — "George Washington" (millercenter.org/president/washington)
