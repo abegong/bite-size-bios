@@ -33,6 +33,28 @@ collections:
       - when: "description"
         schema: published_section_index
 
+  published_nibbles:
+    path: site/content/nibbles
+    pattern: "**/*.md"
+    useExhaustiveVariants: true
+    checks:
+      - kind: markdown_no_heading_level_jumps
+    variants:
+      - when: "lifespan"
+        schema: published_nibble
+        checks:
+          - kind: filesystem_path_depth
+            min: 1
+            max: 1
+          - kind: filesystem_name_case
+            style: kebab
+            target: parent-dir
+          - kind: filesystem_name_affix
+            suffix: index.md
+            target: filename-ext
+      - when: "description"
+        schema: published_section_index
+
   research_files:
     path: research/biographies
     pattern: "**/*.md"

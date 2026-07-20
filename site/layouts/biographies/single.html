@@ -26,10 +26,15 @@
           {{ end }}
         </div>
       </aside>
+      {{ with site.GetPage (printf "/nibbles/%s" .File.ContentBaseName) }}
+      <div class="mt-3 flex flex-wrap items-center gap-2">
+        <a href="{{ .RelPermalink }}" class="bio-chip rounded-full px-3 py-1 text-xs font-medium transition-colors duration-150">Short on time? Read the nibble &rarr;</a>
+      </div>
+      {{ end }}
       {{ with .Params.image }}
       <img class="my-5 h-auto max-h-[32rem] w-full rounded-lg object-cover" src="{{ . | relURL }}" alt="{{ $.Title }}">
       {{ end }}
-      <div class="prose md:prose-base lg:prose-lg max-w-none dark:prose-invert mt-5" {{ "data-pagefind-body" | safeHTMLAttr }}>{{ .Content }}</div>
+      <div class="prose md:prose-base lg:prose-lg max-w-none dark:prose-invert mt-5" {{ "data-pagefind-body" | safeHTMLAttr }} {{ `data-pagefind-meta="length:Bite"` | safeHTMLAttr }}>{{ .Content }}</div>
       <aside id="meta">
         {{ with .Params.categories }}
         <hr class="bio-rule my-4">

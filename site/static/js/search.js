@@ -49,15 +49,26 @@ if (searchRoot) {
       link.href = result.url;
       link.className = "block px-4 py-3 transition-colors duration-150 hover:bg-gray-50 dark:hover:bg-warmgray-800";
 
+      const header = document.createElement("div");
+      header.className = "flex items-center justify-between gap-2";
+
       const title = document.createElement("div");
       title.className = "text-sm font-semibold text-gray-900 dark:text-white";
       title.textContent = result.meta?.title || result.url;
+      header.append(title);
+
+      if (result.meta?.length) {
+        const badge = document.createElement("span");
+        badge.className = "bio-chip rounded-full px-3 py-0.5 text-xs font-medium";
+        badge.textContent = result.meta.length;
+        header.append(badge);
+      }
 
       const excerpt = document.createElement("div");
       excerpt.className = "mt-1 line-clamp-2 text-xs leading-relaxed text-gray-600 dark:text-gray-300";
       excerpt.innerHTML = result.excerpt || "";
 
-      link.append(title, excerpt);
+      link.append(header, excerpt);
       list.append(link);
     });
 
