@@ -60,6 +60,12 @@ summaryLength = 30
     url = "/biographies/"
     weight = 2
 
+  [[menu.main]]
+    identifier = "nibbles"
+    name = "Nibbles"
+    url = "/nibbles/"
+    weight = 3
+
 [taxonomies]
   tag = "tags"
   category = "categories"

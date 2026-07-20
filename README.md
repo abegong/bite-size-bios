@@ -27,11 +27,13 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 │   └── skills/
 │       ├── create-bio-image.md
 │       ├── research-bio.md
-│       └── write-bio.md
+│       ├── write-bio.md
+│       └── write-nibble.md
 └── site/
     ├── archetypes/
     ├── content/
-    │   └── biographies/<slug>/index.md
+    │   ├── biographies/<slug>/index.md
+    │   └── nibbles/<slug>/index.md
     ├── hugo.toml
     ├── layouts/
     ├── package.json
@@ -47,6 +49,7 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 4. Draft the working biography in `biography.md`.
 5. Use `research/skills/write-bio.md` as the reusable drafting guide.
 6. Publish by adapting the draft into `site/content/biographies/<slug>/index.md`.
+7. Optionally, use `research/skills/write-nibble.md` to derive a nibble — a three-to-four-paragraph version — at `site/content/nibbles/<slug>/index.md`. Nibbles reuse the bite's slug and portrait, and the site cross-links the two versions automatically.
 
 Keep research notes in `research/` unless they are intentionally prepared for publication.
 
@@ -96,6 +99,7 @@ Generated site output is written under `site/public/` and ignored by Git.
 This repository uses Katalyst to validate the biography content model:
 
 - `site/content/biographies/` is checked as published Hugo content.
+- `site/content/nibbles/` is checked as published nibble content.
 - `research/biographies/` is checked as source research content.
 
 Run validation from the repository root:
@@ -140,7 +144,17 @@ Published biographies:
 
 - Elizabeth Báthory
 - John Brown
+- Winston Churchill
+- Thomas Edison
 - Mahatma Gandhi
+- John Nash
+- Vincent van Gogh
+- George Washington
+- Oprah Winfrey
+
+Published nibbles (short, three-to-four-paragraph versions at `/nibbles/<slug>/`):
+
+- All nine biographies above have nibble counterparts.
 
 Research folders mirror the published slugs under `research/biographies/`.
 

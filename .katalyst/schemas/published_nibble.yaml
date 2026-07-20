@@ -1,0 +1,27 @@
+type: object
+additionalProperties: false
+required:
+  - title
+  - lifespan
+  - date
+  - draft
+  - summary
+  - image
+properties:
+  title:
+    type: string
+    minLength: 1
+  lifespan:
+    type: string
+    pattern: "^[0-9?]{3,4}-[0-9?]{3,4}$"
+  date:
+    type: string
+  draft:
+    type: boolean
+  summary:
+    type: string
+    minLength: 40
+    maxLength: 180
+  image:
+    type: string
+    pattern: "^/img/biographies/.+\\.(jpg|jpeg|png|webp)$"

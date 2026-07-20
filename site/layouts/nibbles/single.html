@@ -1,6 +1,7 @@
 {{ define "header_css" }}{{ end }}
 
 {{ define "main" }}
+{{ $bite := site.GetPage (printf "/biographies/%s" .File.ContentBaseName) }}
 <div class="grid grid-cols-3 gap-4">
   {{ if .Site.Params.widgets.display }}
   <main class="col-span-3 lg:col-span-2">
@@ -8,6 +9,9 @@
   <main class="col-span-3">
   {{ end }}
     <article class="bio-card p-6 my-4">
+      {{ with .Params.image }}
+      <img class="float-right ml-5 mb-3 w-36 rounded-lg object-cover sm:w-48" src="{{ . | relURL }}" alt="{{ $.Title }}">
+      {{ end }}
       <h1 class="bio-heading mb-3 text-4xl font-bold tracking-tight leading-tight">{{ .Title }}</h1>
       <aside id="meta">
         <div class="bio-muted flex flex-wrap items-center gap-3 text-sm">
@@ -16,6 +20,8 @@
               {{ partial "icon.html" (dict "name" "schedule" "class" "text-sm") }}{{ .Date.Format "2006/01/02" }}
             </h4>
           </section>
+          <span class="bio-chip rounded-full px-3 py-0.5 text-xs font-medium">Nibble</span>
+          {{ with $bite }}
           {{ with .Params.tags }}
           <div id="tags" class="inline-flex flex-wrap items-center gap-1.5">
             {{ partial "icon.html" (dict "name" "sell" "class" "text-sm") }}
@@ -24,28 +30,16 @@
             {{ end }}
           </div>
           {{ end }}
-        </div>
-      </aside>
-      {{ with site.GetPage (printf "/nibbles/%s" .File.ContentBaseName) }}
-      <div class="mt-3 flex flex-wrap items-center gap-2">
-        <a href="{{ .RelPermalink }}" class="bio-chip rounded-full px-3 py-1 text-xs font-medium transition-colors duration-150">Short on time? Read the nibble &rarr;</a>
-      </div>
-      {{ end }}
-      {{ with .Params.image }}
-      <img class="my-5 h-auto max-h-[32rem] w-full rounded-lg object-cover" src="{{ . | relURL }}" alt="{{ $.Title }}">
-      {{ end }}
-      <div class="prose md:prose-base lg:prose-lg max-w-none dark:prose-invert mt-5" {{ "data-pagefind-body" | safeHTMLAttr }} {{ `data-pagefind-meta="length:Bite"` | safeHTMLAttr }}>{{ .Content }}</div>
-      <aside id="meta">
-        {{ with .Params.categories }}
-        <hr class="bio-rule my-4">
-        <div id="categories" class="flex flex-wrap items-center gap-2">
-          {{ partial "icon.html" (dict "name" "folder" "class" "bio-muted text-base") }}
-          {{ range . }}
-          <a href='{{ printf "categories/%s/" (. | urlize) | relURL }}' class="bio-chip rounded-full px-3 py-1 text-sm font-medium transition-colors duration-150">{{ . }}</a>
           {{ end }}
         </div>
-        {{ end }}
       </aside>
+      <div class="prose md:prose-base lg:prose-lg max-w-none dark:prose-invert mt-5" {{ "data-pagefind-body" | safeHTMLAttr }} {{ `data-pagefind-meta="length:Nibble"` | safeHTMLAttr }}>{{ .Content }}</div>
+      {{ with $bite }}
+      <hr class="bio-rule my-4">
+      <div class="flex flex-wrap items-center gap-2">
+        <a href="{{ .RelPermalink }}" class="bio-chip bio-chip-accent rounded-full px-3 py-1 text-sm font-medium transition-colors duration-150">Want the full story? Read the bite-size bio &rarr;</a>
+      </div>
+      {{ end }}
     </article>
   </main>
   {{ if .Site.Params.widgets.display }}
