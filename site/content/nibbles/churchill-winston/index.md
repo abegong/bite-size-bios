@@ -3,7 +3,7 @@ title = "Winston Churchill"
 lifespan = "1874-1965"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Winston Churchill, whose lifetime of flaws became exactly what one desperate moment required."
+summary = "A lifetime of being wrong prepared him to be right the one time it mattered most."
 image = "/img/biographies/churchill-winston.png"
 +++
 

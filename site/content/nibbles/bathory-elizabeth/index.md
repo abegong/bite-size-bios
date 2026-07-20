@@ -3,7 +3,7 @@ title = "Elizabeth Báthory"
 lifespan = "1560-1614"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Elizabeth Báthory, the Blood Countess, whose guilt remains one of history's darkest open questions."
+summary = "Never tried, never convicted — just walled into her own castle until she died. The short version of history's most contested countess."
 image = "/img/biographies/elizabeth-bathory.png"
 +++
 

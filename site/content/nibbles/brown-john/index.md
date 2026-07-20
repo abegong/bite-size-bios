@@ -3,7 +3,7 @@ title = "John Brown"
 lifespan = "1800-1859"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of John Brown, the abolitionist whose violence forced America's reckoning with slavery."
+summary = "Madman to half the country, martyr to the other half: how one abolitionist's raid at Harpers Ferry made civil war feel inevitable."
 image = "/img/biographies/john-brown.png"
 +++
 

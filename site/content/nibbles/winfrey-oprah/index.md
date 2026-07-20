@@ -3,7 +3,7 @@ title = "Oprah Winfrey"
 lifespan = "1954-????"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Oprah Winfrey, who turned trust into the most powerful platform in American media — and owned it."
+summary = "From rural Mississippi to the most trusted voice in American media — and the rare star who owned the whole enterprise."
 image = "/img/biographies/winfrey-oprah.png"
 +++
 

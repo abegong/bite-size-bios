@@ -3,7 +3,7 @@ title = "Eliud Kipchoge"
 lifespan = "1984-????"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of the man who covered 26.2 miles in under two hours — and insisted that no human is limited."
+summary = "He covered 26.2 miles in under two hours — and insisted that no human is limited."
 image = "/img/biographies/kipchoge-eliud.png"
 +++
 

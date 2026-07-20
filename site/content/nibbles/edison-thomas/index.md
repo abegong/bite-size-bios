@@ -3,7 +3,7 @@ title = "Thomas Edison"
 lifespan = "1847-1931"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Thomas Edison, the inventor who turned invention itself into an organized industrial system."
+summary = "Before him, invention was a lone tinkerer's game; after his laboratories, it was an industry."
 image = "/img/biographies/thomas-edison.png"
 +++
 
