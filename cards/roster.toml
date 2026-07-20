@@ -1,0 +1,36 @@
+# Employee-card art roster.
+#
+# `[defaults]` applies to every card. Each `[[employees]]` entry describes one
+# card. Reference photos are auto-discovered from `employees/<slug>/`; style
+# reference images are auto-discovered from `style-references/`.
+
+[defaults]
+model = "gpt-image-2"
+size = "1024x1024"
+quality = "high"
+output_format = "png"
+style_reference_dir = "style-references"
+output_dir = "art"
+# Written style description. This works together with the images in
+# style-references/ — describe the target look in words here, and let the
+# style reference images carry the rest.
+style = """
+Stylized character-portrait illustration with clean shapes, confident line
+work, and a simple flat background. Friendly and professional, readable at
+small card size."""
+
+# Example entry — replace with real employees.
+#
+# [[employees]]
+# slug = "doe-jane"                 # required; also names employees/<slug>/ and the output file
+# name = "Jane Doe"                 # required for a good prompt
+# role = "Head of Product"          # optional; adds context to the prompt
+# notes = "round glasses, short curly hair"   # optional; likeness details to emphasize
+# # references = ["employees/doe-jane/ref-1.jpg"]  # optional; overrides auto-discovery
+# # prompt = "..."                  # optional; replaces the built-in prompt template entirely
+
+[[employees]]
+slug = "doe-jane"
+name = "Jane Doe"
+role = "Head of Product"
+notes = "round glasses, short curly hair"

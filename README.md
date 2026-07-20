@@ -7,6 +7,12 @@ The repository is organized around two main project directories:
 - `site/` contains the public Hugo website.
 - `research/` contains source notes, drafts, and reusable writing skills.
 
+There is also a standalone artwork pipeline:
+
+- `cards/` generates consistent character art for employee cards from
+  reference photos and style-reference images via the OpenAI Images API.
+  See `cards/README.md`.
+
 Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repository and deployment plumbing.
 
 ## Directory Structure
@@ -16,6 +22,12 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 ├── Makefile
 ├── README.md
 ├── netlify.toml
+├── cards/
+│   ├── README.md
+│   ├── generate_card_art.py
+│   ├── roster.toml
+│   ├── employees/<slug>/
+│   └── style-references/
 ├── research/
 │   ├── biographies/
 │   │   └── <initial>/<slug>/
