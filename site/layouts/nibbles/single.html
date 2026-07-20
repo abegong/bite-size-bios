@@ -10,7 +10,7 @@
   {{ end }}
     <article class="bio-card p-6 my-4">
       {{ with .Params.image }}
-      <img class="float-right ml-5 mb-3 w-24 rounded-lg object-cover sm:w-32" src="{{ . | relURL }}" alt="{{ $.Title }}">
+      <img class="float-right ml-5 mb-3 w-36 rounded-lg object-cover sm:w-48" src="{{ . | relURL }}" alt="{{ $.Title }}">
       {{ end }}
       <h1 class="bio-heading mb-3 text-4xl font-bold tracking-tight leading-tight">{{ .Title }}</h1>
       <aside id="meta">
@@ -21,6 +21,16 @@
             </h4>
           </section>
           <span class="bio-chip rounded-full px-3 py-0.5 text-xs font-medium">Nibble</span>
+          {{ with $bite }}
+          {{ with .Params.tags }}
+          <div id="tags" class="inline-flex flex-wrap items-center gap-1.5">
+            {{ partial "icon.html" (dict "name" "sell" "class" "text-sm") }}
+            {{ range . }}
+            <a href='{{ printf "tags/%s/" (. | urlize) | relURL }}' class="bio-chip bio-chip-accent rounded-full px-3 py-0.5 text-xs font-medium transition-colors duration-150">{{ . }}</a>
+            {{ end }}
+          </div>
+          {{ end }}
+          {{ end }}
         </div>
       </aside>
       <div class="prose md:prose-base lg:prose-lg max-w-none dark:prose-invert mt-5" {{ "data-pagefind-body" | safeHTMLAttr }} {{ `data-pagefind-meta="length:Nibble"` | safeHTMLAttr }}>{{ .Content }}</div>
