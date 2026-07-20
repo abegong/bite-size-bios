@@ -154,7 +154,7 @@ Published biographies:
 
 Published nibbles (short, three-to-four-paragraph versions at `/nibbles/<slug>/`):
 
-- Thomas Edison
+- All nine biographies above have nibble counterparts.
 
 Research folders mirror the published slugs under `research/biographies/`.
 
