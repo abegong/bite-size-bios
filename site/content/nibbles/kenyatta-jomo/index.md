@@ -3,7 +3,7 @@ title = "Jomo Kenyatta"
 lifespan = "c. 1897-1978"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Jomo Kenyatta, made a martyr by a rigged trial and a founding father by what he chose to forgive — and to forget."
+summary = "Made a martyr by a rigged trial and a founding father by what he chose to forgive — and to forget."
 image = "/img/biographies/kenyatta-jomo.png"
 +++
 

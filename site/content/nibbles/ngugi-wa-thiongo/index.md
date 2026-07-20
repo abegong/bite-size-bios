@@ -3,7 +3,7 @@ title = "Ngũgĩ wa Thiong'o"
 lifespan = "1938-2025"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of the Kenyan writer who answered prison, exile, and empire by refusing to write his fiction in English."
+summary = "Prison, exile, empire — he answered all three by refusing to write his fiction in English."
 image = "/img/biographies/ngugi-wa-thiongo.png"
 +++
 

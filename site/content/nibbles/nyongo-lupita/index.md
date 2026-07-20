@@ -3,7 +3,7 @@ title = "Lupita Nyong'o"
 lifespan = "1983-????"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of the girl who prayed to wake up lighter — and became the face that changed the mirror."
+summary = "The girl who prayed to wake up lighter became the face that changed the mirror."
 image = "/img/biographies/nyongo-lupita.png"
 +++
 

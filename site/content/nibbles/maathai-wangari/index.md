@@ -3,7 +3,7 @@ title = "Wangari Maathai"
 lifespan = "1940-2011"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Wangari Maathai, who proved that a seedling in a woman's hands could be a political weapon."
+summary = "The proof that a seedling in a woman's hands can be a political weapon."
 image = "/img/biographies/maathai-wangari.png"
 +++
 
