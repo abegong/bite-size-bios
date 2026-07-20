@@ -1,0 +1,17 @@
+{
+  "name": "employee-card-art-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generate employee-card character art with the OpenAI Images API.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "generate": "node generate-card-art.mjs",
+    "dry-run": "node generate-card-art.mjs --dry-run"
+  },
+  "dependencies": {
+    "smol-toml": "^1.4.2"
+  }
+}

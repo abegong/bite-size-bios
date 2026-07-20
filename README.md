@@ -24,7 +24,8 @@ Root-level files such as `Makefile`, `netlify.toml`, and `.gitmodules` are repos
 ├── netlify.toml
 ├── cards/
 │   ├── README.md
-│   ├── generate_card_art.py
+│   ├── generate-card-art.mjs
+│   ├── package.json
 │   ├── roster.toml
 │   ├── employees/<slug>/
 │   └── style-references/

@@ -8,14 +8,16 @@ while matching the style of the reference set.
 
 It follows the same approach as the biography portrait tool at
 `research/scripts/create_bio_image.py`, generalized to batch generation over
-a roster.
+a roster. Per `AGENTS.md`, it is written as a plain Node ESM script with a
+single dependency (`smol-toml` for the roster file).
 
 ## Layout
 
 ```text
 cards/
 ├── README.md               # this file
-├── generate_card_art.py    # the pipeline script
+├── generate-card-art.mjs   # the pipeline script
+├── package.json            # pins the one dependency (smol-toml)
 ├── roster.toml             # who to generate, plus shared defaults
 ├── employees/<slug>/       # 1-3 reference photos per employee (likeness)
 ├── style-references/       # 2-4 exemplar images that define the art style
@@ -39,10 +41,11 @@ consistent set.
 
 ## Setup
 
-1. Python 3.11+ (uses only the standard library).
-2. `export OPENAI_API_KEY=...`
-3. Add style exemplars to `style-references/`.
-4. For each employee: add a `[[employees]]` entry to `roster.toml` and put
+1. Node.js 18+.
+2. `cd cards && npm ci`
+3. `export OPENAI_API_KEY=...`
+4. Add style exemplars to `style-references/`.
+5. For each employee: add a `[[employees]]` entry to `roster.toml` and put
    1-3 reference photos in `employees/<slug>/`.
 
 ## Usage
@@ -51,26 +54,26 @@ Always inspect the planned requests first — this prints every prompt and
 attachment without calling the API:
 
 ```sh
-python3 cards/generate_card_art.py --dry-run
+node cards/generate-card-art.mjs --dry-run
 ```
 
 Generate art for everyone who does not have an output file yet:
 
 ```sh
-python3 cards/generate_card_art.py
+node cards/generate-card-art.mjs
 ```
 
 Common variations:
 
 ```sh
 # One employee only
-python3 cards/generate_card_art.py --only doe-jane
+node cards/generate-card-art.mjs --only doe-jane
 
 # Regenerate even though output exists
-python3 cards/generate_card_art.py --only doe-jane --force
+node cards/generate-card-art.mjs --only doe-jane --force
 
 # Three variants to choose between (writes <slug>-v1.png, -v2, -v3)
-python3 cards/generate_card_art.py --only doe-jane --variants 3
+node cards/generate-card-art.mjs --only doe-jane --variants 3
 ```
 
 Existing outputs are skipped by default, so re-running the script after
