@@ -1,0 +1,82 @@
++++
+image = "/img/biographies/monet-claude.png"
+title = "Claude Monet"
+lifespan = "1840-1926"
+date = "2026-07-20"
+draft = false
+summary = "He chased the fleeting instant for sixty years, then went half-blind and answered by giving France a room of water and light without end."
+tags = ["impressionism", "french-art", "water-lilies", "art-history"]
+categories = ["art", "culture"]
+archives = ["2026/07"]
++++
+
+## The Morning After the Guns
+
+On November 12, 1918 — the day after the Armistice that ended the First World War — a nearly blind old man in a garden in Normandy sat down to write to the Prime Minister of France. He was seventy-eight. He had already buried two wives and his elder son. And he wanted to give his country a present.
+
+Not a monument of soldiers or flags. Claude Monet offered Georges Clemenceau, his friend and France's wartime "Tiger," two large decorative panels "as a symbol for peace." What he had in mind was water: the surface of the lily pond he had dug behind his house, painted at room scale, with no horizon, no shore, and no human figure — nothing but light lying on water, hour after hour. Over the next four years that offer grew into something enormous, an encircling cycle of eight compositions rising two meters high and running some ninety-one meters in length, meant to wrap a viewer inside "the illusion of an endless whole, of a wave without horizon and without shore."
+
+It was a strange gift from a strange source. For sixty years Monet had chased the least paintable thing in the world — the passing instant, light on the move, a sunrise that lasts minutes. He had been mocked for it, gone hungry for it, and finally grown rich on it. And now, at the summit of his fame, the one faculty his whole art depended on was failing: cataracts were turning his world brown and dim. His answer was to build something that was the opposite of an instant — a permanent, horizonless room of water and light — and then to race his own blindness to finish it. He would win the race only by dying first.
+
+## The Boy in Le Havre
+
+He was born Oscar-Claude Monet in Paris on November 14, 1840, the second son of a grocer, and baptized the following spring at Notre-Dame-de-Lorette. His family called him Oscar. When he was around five the household moved to Le Havre, on the Normandy coast, where his father joined the family ship-chandling and grocery trade — and where the boy grew up beside the harbor whose dawn he would one day make famous.
+
+By fifteen he was a minor local celebrity, selling sharp charcoal caricatures for ten or twenty francs apiece. They hung in a shop window alongside the seascapes of a local painter, Eugène Boudin, who kept pressing the reluctant teenager to come out and paint in the open air. Monet resisted, then relented, and later said the moment a veil was torn from his eyes: "by the single example of this painter devoted to his art... I had understood what painting could be." Of Boudin he would say simply, "I owe everything." A second mentor, the Dutch painter Johan Jongkind, met a little later, he called his other "true master."
+
+Two blows and a rescue shaped these years. In January 1857 his mother, a singer who had encouraged his artistic ambitions, died; Monet was sixteen. His childless, comfortably off aunt Marie-Jeanne Lecadre stepped in as protector and paymaster. And in 1861 his name was drawn for conscription. Rather than let his family buy him a substitute — the usual escape for those who could afford it — he enlisted with the Chasseurs d'Afrique and served in Algeria. (His own later accounts of why he went changed with the telling, one of many places where Monet is an unreliable narrator of his own life.) Typhoid cut the tour short; his aunt bought out the rest of his term, and he was discharged in 1862. The African light, he claimed decades afterward, "contained the germ of my future researches" — a tidy line best treated as an old man's reminiscence rather than fact.
+
+Back in Paris, he entered the studio of Charles Gleyre in 1862 and fell in with Auguste Renoir, Alfred Sisley, and Frédéric Bazille — the nucleus of what would become Impressionism.
+
+## The Sketch That Named a Movement
+
+In 1865 Monet made his debut at the official Salon, the sole gatekeeper of an artist's career, with two well-received seascapes. That same year he met Camille Doncieux, eighteen, who became his model, his companion, and the face of the great figure paintings of the decade. She was the woman in *The Woman in the Green Dress*, a Salon hit of 1866. In 1867 she bore their son Jean, while Monet — cut off by his disapproving father — was parked at his aunt's house on the coast.
+
+The late 1860s were genuinely hard: debts, seized canvases, an infant to feed. Just how hard is one of the enduring debates about Monet, because he was his own most theatrical witness, and his begging letters were both sincere and performed. In the spring of 1868, at Bennecourt on the Seine, he threw himself into the river. The only source is Monet's own letter to Bazille, written with unsettling breeziness — "I was so upset yesterday that I was stupid enough to throw myself into the water; fortunately no harm came of it." He was a strong swimmer and unhurt. Biographers accept a real crisis but differ on how far the intent went; the honest course is to report the plunge and let his own flippant sentence carry the ambiguity.
+
+Then came the picture that gave an era its name. Around November 1872, from a window of the Hôtel de l'Amirauté in Le Havre, Monet painted the outer harbor at dawn in a few hours — cranes and smokestacks dissolving in mist, an orange sun and its broken reflection dabbed on at the end. In April 1874 he and his friends mounted their own exhibition in the former studio of the photographer Nadar on the boulevard des Capucines: a joint-stock society of artists selling directly to the public, in open revolt against the Salon. Asked for a catalogue title and judging that the loose sketch "couldn't decently pass for a view of Le Havre," Monet called it *Impression, Sunrise*.
+
+The legend says a critic's sneer both christened and crushed the group. The record is more interesting. Louis Leroy's satirical piece in *Le Charivari* on April 25, 1874, was a comic dialogue mocking the whole show — wallpaper, he jeered, was more finished. But "impression" was already studio slang, the sympathetic critic Jules Castagnary used "Impressionists" approvingly within days, reviews were mixed rather than uniformly hostile, and roughly 3,500 people came through the doors. Monet priced *Impression, Sunrise* at 1,000 francs and simply failed to sell it. The naming was real; the martyrdom was embellished, much of it by Monet himself in interviews given decades later.
+
+## The Same Thing, Over and Over
+
+Through the 1870s at Argenteuil, a riverside suburb of sailboats and factory chimneys, Monet painted the classic Impressionist decade — the Seine from a floating studio boat, Renoir and Manet at his elbow. But the private ledger darkened. Camille fell gravely ill, diagnosed with uterine cancer. In 1878, as the collector Ernest Hoschedé went spectacularly bankrupt, two families pooled their households: Monet, Camille, and their two boys under one roof with Alice Hoschedé and her six children. Ernest drifted to Paris; Alice nursed the dying Camille.
+
+Camille died in September 1879, aged thirty-two. Monet painted her on her deathbed and later confessed his horror at catching himself "systematically noting the colours" of his dead wife's face by an automatic reflex — the gift as a curse. The household that remained was one Paris gossiped about: Monet living with his patron's wife while both spouses lived. Whether he and Alice were lovers before Camille's death is unresolved, and cannot now be settled — Camille's own letters were destroyed, most biographers suspect by Alice, so Camille is nearly voiceless in the record. In 1883 Monet rented a house at Giverny, near Vernon; Alice and the eight children followed. They married in 1892, the year after Ernest died.
+
+The 1880s and '90s turned the mocked outcast into the master of the market — and it was here that Monet's central obsession crystallized into method. He began painting the same motif again and again, tracking it as the light changed by the quarter hour, rotating canvas after canvas. Around 1890–91 came the grainstacks: some two dozen views of the same humble stacks through seasons and times of day, conceived not as separate pictures but as a decorative ensemble. Fifteen of them, shown at Paul Durand-Ruel's gallery in May 1891, sold out within days at record prices. The poplars followed, then some thirty façades of Rouen Cathedral, painted from rented shopfronts across 1892–94 and sold in 1895 at twelve to fifteen thousand francs each. The subject was never really the stack or the stone; it was time and light themselves.
+
+Two cautions belong here. Monet's "spontaneous" plein-air canvases were often heavily reworked in the studio — the impulsive dash of paint was as much a constructed effect as a captured one. And the series were commercial and even nationalist strategy as much as pure optics: Durand-Ruel was opening the American market, prices were climbing, and Monet, once reduced to begging fifty francs, had become a shrewd and wealthy operator who led the 1890 public subscription to buy Manet's *Olympia* for France. The ex-outcast had become a kingmaker.
+
+## The Garden and the Race Against the Dark
+
+In 1893 Monet bought a water meadow across the road and rail line from his Giverny house, diverted an arm of the river Epte over his neighbors' objections, and dug a lily pond. He built a Japanese-style bridge, planted willows and wisteria, and put gardeners to work — one assigned to the water lilies alone. It was an artwork he could walk through, a subject he manufactured. "I am good for nothing except painting and gardening," he is supposed to have said. For the last quarter century of his life the pond became his single great motif.
+
+Then the losses closed in. Alice died in 1911. In 1914 his elder son Jean died after a long illness; Jean's widow — Alice's daughter Blanche, herself a painter — became the old man's companion and the guardian of his work. And his eyes began to fail. Cataracts, first noticed around 1912, were browning and dimming his world. In 1913 he consulted a specialist in London and refused surgery, terrified by the botched operations of fellow artists. "Colours no longer had the same intensity for me," he wrote; "reds had begun to look muddy." He labeled his paint tubes and fixed the order of his palette by memory to keep painting at all.
+
+It was in these years, at Clemenceau's urging, that he built a vast third studio, finished in 1916, and began the *Grandes Décorations* — the room-scale water lilies — while the Western Front was close enough that he could hear the guns. He refused to flee Giverny; if the invaders came, he said, they would find him among his canvases. The day after the Armistice, he made his offer to France.
+
+The endgame was a medical ordeal. By 1922 his right eye could perceive only light. He submitted at last to a two-stage cataract operation in early 1923 and made a famously terrible patient, raging that "it is criminal to have put me in this situation." Afterward he saw the world stained blue (cyanopsia), wore a black lens over one eye and tinted German-made spectacles, and — appalled at the "real" colors he could now see in the pictures he had painted half-blind — destroyed some canvases and reworked others.
+
+This raises the sharpest debate about the late Monet. One reading, argued by clinicians, is that the hot, muddy, coarsely handled canvases of 1918–23 — the last, near-abstract paintings of the Japanese bridge — track the pathology of his failing lenses, and that his own destruction and retouching prove he never meant them to look that way. The other, favored by many art historians, is that Monet had been simplifying and abstracting since the 1890s, increasingly working from memory by design, and that reducing his late manner to a diagnosis flattens a deliberate achievement. Both the serene Orangerie panels and the wild private canvases came out of the same afflicted years — which is the best reason not to let either the medicine or the mythology have the last word. By 1925, corrected vision restored, he finished the great panels. But he refused to surrender them while he lived, retouching to the very end.
+
+## The Sistine Chapel of the Anticlimax
+
+Monet died at Giverny on December 5, 1926, at eighty-six, reportedly of lung cancer, with Clemenceau at his bedside. He had wanted no ceremony; about fifty mourners came. At the graveside Clemenceau reportedly tore the black pall from the coffin — "No black for Monet!" — and threw a flowered cloth over it instead.
+
+Five months later, on May 17, 1927, Clemenceau inaugurated the water lilies in two purpose-built oval rooms at the Musée de l'Orangerie in Paris — the panels lit from the sky, arranged so the twin ovals traced an infinity symbol along the axis of the sun, exactly the "endless whole" Monet had described. It should have been a triumph. Instead the rooms drew thin crowds. The late Monet was out of fashion; the avant-garde had moved on to Cubism and abstraction, and for a generation his masterpiece sat all but ignored.
+
+Vindication came late, and from an unexpected quarter. In the 1950s the American Abstract Expressionists rediscovered the enveloping late canvases; in 1952 the painter André Masson called the Orangerie rooms "the Sistine Chapel of Impressionism," and New York's Museum of Modern Art bought a large *Water Lilies*. When Monet's surviving son Michel died in 1966, he left the family house and a trove of never-exhibited late canvases to the Institut de France, making the Musée Marmottan in Paris — which also holds *Impression, Sunrise* itself — the largest Monet collection in the world. In 1980 the restored house and gardens at Giverny opened to the public and became a pilgrimage site, an artwork you walk through. Today his canvases sell for tens of millions, and his water lilies live a double life as both radical painting and gift-shop wallpaper — the price, perhaps, of having painted something everyone can love.
+
+The word he was mocked with became the name of an age. And the room he built for a country that ignored it for thirty years is now among the most beloved spaces in Paris. Monet spent his life trying to hold onto the instant — the one thing that, by definition, cannot be kept. In the end he gave the world the opposite: something without beginning, end, or horizon, delivered only when he could no longer take it back.
+
+## Sources & Further Reading
+
+1. Musée Marmottan Monet — notice for *Impression, soleil levant* (inv. 4014) and the Claude Monet collection (marmottan.fr)
+2. Musée de l'Orangerie — "The Water Lilies by Claude Monet" and "From the orangerie to the museum" (musee-orangerie.fr)
+3. Gruener, Anna — "The effect of cataracts and cataract surgery on Claude Monet," *British Journal of General Practice* 65(634), May 2015, 254–255
+4. The National Gallery, London — Claude Monet artist page and painting entries (nationalgallery.org.uk)
+5. Wildenstein, Daniel — *Monet, or the Triumph of Impressionism* and the 4-volume catalogue raisonné (Wildenstein Institute / Taschen)
+6. Wullschläger, Jackie — *Monet: The Restless Vision* (Allen Lane, 2023)
+7. Tucker, Paul Hayes — *Claude Monet: Life and Art* (Yale University Press, 1995) and *Monet in the '90s: The Series Paintings* (1989)
+8. House, John — *Monet: Nature into Art* (Yale University Press, 1986)

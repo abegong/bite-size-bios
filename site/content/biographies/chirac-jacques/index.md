@@ -1,0 +1,89 @@
++++
+image = "/img/biographies/chirac-jacques.png"
+title = "Jacques Chirac"
+lifespan = "1932-2019"
+date = "2026-07-20"
+draft = false
+summary = "A serial betrayer and convicted machine boss who also broke France's fifty-year silence over Vichy — and his country loved him for both."
+tags = ["french-history", "fifth-republic", "vichy-memory", "corruption"]
+categories = ["political-leadership", "historical-memory"]
+archives = ["2026/07"]
++++
+
+## The Sentence No President Had Said
+
+On the morning of 16 July 1995, on a blazing Sunday beside the site of a vanished Paris cycling stadium, a new president of the Republic said the thing his eight predecessors had spent fifty years refusing to say.
+
+Fifty-three years earlier, in the pre-dawn dark of 16 July 1942, French police had begun rounding up thousands of Jews in Paris and herding them into the Vélodrome d'Hiver, a covered cycle track, before shipping them east. For half a century the official French position, held from Charles de Gaulle to François Mitterrand, was that this had been the work of a criminal parenthesis called Vichy — that the true France, the Republic, bore no guilt. As recently as September 1994, Mitterrand had restated it: the Republic had had nothing to do with it.
+
+Jacques Chirac, elected barely two months earlier, tore the fiction down in a single passage. "These dark hours forever sully our history," he said, "and are an insult to our past and our traditions. Yes, the criminal folly of the occupier was seconded by the French, by the French state." France, "that day, committed the irreparable." Seventy-four trains would leave for Auschwitz; of the seventy-six thousand Jews deported from France, the vast majority would never return. The nation, he said, owed them "an imprescriptible debt."
+
+It was an act of unforced moral clarity — and it came from the least likely man in French politics. Chirac was a career opportunist, a serial betrayer of patrons, a machine boss who would one day become the first French head of state convicted of a crime since the head of Vichy itself. Both things were true. Understanding how they lived in one man is the whole of his story.
+
+## A Boy Who Wanted the Sea
+
+Jacques René Chirac was born on 29 November 1932 in the fifth arrondissement of Paris, the only surviving child of Abel Chirac, a bank official who climbed into the aircraft industry, and Marie-Louise Valette, a mother so devoted she is said to have unwrapped his sweets before handing them to him. His deeper roots ran to Sainte-Féréole in Corrèze, the rural southwest of teacher-grandparents that he cultivated as his true country all his life, long after the boy from the fifth had become a creature of Paris.
+
+He was restless and clever and hard to hold. He played rugby, sought out a Sanskrit tutor and ended up nearly fluent in Russian, dabbled in Communist circles, sold the party paper, and in 1950 signed the Soviet-backed Stockholm Appeal — a youthful flirtation that would complicate his first American visa. That same year, at eighteen, he shipped out of Dunkirk on a coal-carrying tramp steamer bound for Algiers, dreaming of becoming a merchant-marine officer. His banker father tracked him down, appeared on the dock, and marched him back onto the elite track: Sciences Po, then a stint at Harvard summer school in 1953, where he washed dishes and worked the counter at a Howard Johnson's, got briefly engaged to a Radcliffe student until her father intervened by letter, and took a job at Anheuser-Busch in St. Louis.
+
+In 1956 he married Bernadette Chodron de Courcel — devout, haute-bourgeoise, iron-willed, and, in time, a politician in her own right in Corrèze. They had two daughters: Laurence, whose long illness kept her out of public life, and Claude, who became her father's communications chief and fiercely protective gatekeeper. Chirac trained at the ENA, France's elite civil-service school, did cavalry-officer training, and volunteered for the Algerian War as a passionate believer in "Algérie française." He later called it "the only time I had the feeling of command."
+
+The world he entered was the Fifth Republic that de Gaulle had built in 1958: a strong presidency, a Gaullist movement heavy with doctrine and destiny. Chirac would spend his career capturing the movement's brand while quietly discarding most of its beliefs. What he kept was the technique.
+
+## Pompidou's Bulldozer
+
+In 1962 the young official caught the eye of Georges Pompidou, de Gaulle's prime minister, who took him onto his staff and pushed him into elective politics back in Corrèze. Pompidou called him "my bulldozer." The nickname stuck because it was exact. One line, probably embroidered but perfectly apt, had Pompidou saying that if he complained a tree was shading him, Chirac would have it cut down within five minutes.
+
+He rose with astonishing speed — deputy for Corrèze in 1967, junior minister at thirty-four, a back-room fixer in the Grenelle negotiations that ended the May 1968 upheaval, then a run of senior posts: the economy, relations with parliament, a spell as a combative agriculture minister championing French farmers, and finally interior minister. Then came the first of the betrayals that would define his reputation. When Pompidou died in office in 1974, Chirac led forty-three Gaullist deputies to back the centrist Valéry Giscard d'Estaing over the movement's own candidate, Jacques Chaban-Delmas. Giscard rewarded him with the premiership at forty-one.
+
+The alliance curdled fast. Chirac resigned in 1976, complaining Giscard denied him the means to govern, and within months founded the RPR — a Gaullist party rebuilt as a machine in his own service. In 1977 he won the newly restored mayoralty of Paris against Giscard's candidate and held City Hall for eighteen years. Paris was the base from which he ran everything, dispensing festivals, patronage, and a swelling payroll — and building the network of favours that would eventually convict him.
+
+His ideological compass swung freely. In December 1978, dictating from a hospital bed after a car crash, he issued the "Appel de Cochin," a nationalist blast against the pro-European "party of the foreigner" — the low point of his anti-Europe phase, which he would later reverse completely to become one of the euro's champions. In 1981 his conspicuously tepid support for Giscard in the presidential runoff helped hand the office to the Socialist Mitterrand, and Giscard never forgave him; the vendetta poisoned the French right for a generation. From 1986 to 1988 Chirac served as Mitterrand's first "cohabitation" prime minister, privatizing and abolishing the wealth tax — but the period was scarred by the death of the student Malik Oussekine at police hands in December 1986, which shook him, and by the bloody assault on the Ouvéa cave in New Caledonia days before the 1988 election, in which nineteen Kanak separatists were killed. He lost that election to Mitterrand.
+
+Then came the years he called his "crossing the desert." Challenged within his own party, he cast about for themes. On 19 June 1991, at an RPR dinner-debate in Orléans, he spoke to laughter and applause about immigrant families — the "overdose," the polygamous household on welfare, the French worker on the landing driven mad by "the noise and the smell," and the insistence that "it is not racist to say this." The words were a deliberate borrowing of Front National themes at a moment when Jean-Marie Le Pen's far right was pulling the mainstream right rightward; Chirac had once said of Le Pen that he voiced "a bit louder" what others were thinking. The speech was well documented at the time and has never washed off. It sits, unresolved, beside the man who four years later would break the silence over Vichy.
+
+## The Comeback and the Confession
+
+The 1995 presidential race was another study in Chirac's world. He had installed his self-described friend of thirty years, Édouard Balladur, as prime minister in 1993 — and Balladur promptly ran against him, taking much of the party, including a rising favourite named Nicolas Sarkozy. Chirac, written off, campaigned against the "single thought" of the technocratic consensus and promised to heal France's "social fracture." He beat Balladur in the first round and the Socialist Lionel Jospin in the second. On his third try, after twenty years of scheming, he had the Élysée.
+
+The presidency opened badly and gloriously at once. He resumed nuclear testing at Mururoa to worldwide outrage before ending French testing permanently and signing the comprehensive test-ban treaty. That winter, his prime minister Alain Juppé's welfare and pension reforms triggered the biggest strikes since 1968. But between those two storms came the Vél d'Hiv speech — the moment that would outlast everything else he did in office.
+
+It was not the safe move. Orthodox Gaullists and much of Mitterrand's camp still held that Vichy was not the Republic and France owed no apology. Chirac decided otherwise, and he did it deliberately, weeks into a presidency he had wanted his whole life. The historians who had spent decades cracking the official fiction — the ones who had documented what French officials actually did in 1942 — now heard a head of state say it from the rostrum. Every one of his successors has built on that speech rather than retreat from it. He followed it with tributes to the rescuers of Jews at Chambon-sur-Lignon in 2004 and a Panthéon ceremony for the Righteous of France in 2007.
+
+(A note for the record: in the delivered speech Chirac gave the number of French police and gendarmes mobilized that day as "450" — the figure in the official Élysée text and in the archival recordings. Many later reproductions, especially in the English-language press, raise it to "4,500," closer to historians' estimate of the several thousand police involved in the wider July 1942 operation. Either way, the uncontested lines — the seventy-four trains, the seventy-six thousand deportees, the "irreparable" — carry the weight here.)
+
+## Two Chiracs
+
+The rest of the presidency alternated between self-inflicted wounds and moments of nerve. In 1997 he dissolved a friendly National Assembly a year early to strengthen his hand — and lost it, handing five years of government to the Socialist Jospin in the longest cohabitation of the Republic. It is near-universally judged the worst blunder of his career; only the motive is still argued.
+
+Then, in 2002, the shock that turned into his strangest triumph. In the first round, Le Pen edged past Jospin into the runoff. Chirac faced the far right one-on-one, and a nation that could not stand him voted for him anyway — "vote for the crook, not the fascist" — handing him 82.2 percent, the largest score in French presidential history. He knew exactly what it was worth: not a mandate for himself, but a republican reflex using him as a shield. Two months later a far-right gunman tried to shoot him at the Bastille Day parade and was wrestled down by bystanders.
+
+His second term produced the other act that outlived him. In 2003, as the United States pressed toward war in Iraq, Chirac led the opposition alongside Germany and Russia, threatening a UN Security Council veto and warning that Iraq posed no immediate threat justifying an immediate war. His foreign minister Dominique de Villepin's speech at the UN drew rare applause. Franco-American relations cratered — this was the era of "freedom fries" — but much of world opinion later judged him right. The stand became the reference point for French foreign-policy independence, even as critics noted the awkward backstory: as prime minister in the 1970s Chirac had courted Saddam Hussein and France had sold Iraq the Osirak reactor. The principled reading has largely prevailed; the commercial history is worth keeping in view.
+
+These are the poles of the puzzle. The same man who borrowed Le Pen's themes in 1991 built the republican dam against him in 2002 and refused every FN alliance. The Cochin nationalist became Europe's champion; the privatizing liberal became the scourge of neoliberal orthodoxy. To disillusioned early allies he was a man without conviction — one famously said they had thought him marble and found him the cheap faience of a bidet. To others he was a politician whose only fixed points were France, power, and a genuine, unshowy humanity about ordinary people. His domestic record was thin — the 2005 rejection of the EU constitution he championed was his own referendum turning on him — but there was a private Chirac too: a connoisseur of Asian, African and pre-Columbian art who willed into being the Musée du quai Branly, his museum of non-European cultures, and quiet, unpublicized help for the sick and disabled that many linked to his elder daughter's long illness. He guarded the inner man on principle: "It is only the political personality that should interest us."
+
+## The Absent Defendant
+
+He left the Élysée in 2007, handing power to Sarkozy, whom he privately loathed and later skewered in his memoirs as "irritable, rash, impetuous, disloyal, ungrateful." With the presidential immunity that had shielded him for a decade now gone, the old Paris City Hall affair caught up with him. His administration had paid RPR activists for municipal jobs that did not exist; Juppé had already been convicted over it in 2004. On 15 December 2011, a Paris court convicted Chirac of diverting public funds, abuse of trust, and illegal conflict of interest, and gave him a two-year suspended sentence. He was the first former French head of state convicted of a crime since Marshal Pétain in 1945.
+
+The conviction should be stated as fact; its moral weight is genuinely debated. Chirac was seventy-nine and did not attend, his lawyers citing severe memory impairment. No one alleged he had personally enriched himself, the party-financing norms of the era were rotten across the political spectrum, and — strikingly — the prosecution itself had asked for acquittal, and the judge convicted anyway. Some read that as scrupulous justice; others, including anti-corruption campaigners at the time, wondered aloud about the request itself. What is not in doubt is that a system of patronage bearing his name was found to be criminal.
+
+By then he was fading. Bernadette confirmed the memory problems and the end of public appearances; hospitalizations came and went. In a last flick of the old knife, in 2012 he let it be known he would vote for the Socialist François Hollande over Sarkozy. In 2016 the quai Branly museum was renamed in his honour. On 26 September 2019 he died at home in Paris, aged eighty-six.
+
+## The Man France Convicted and Loved
+
+The death produced a national moment that surprised no one who understood France's relationship with him. There was a day of mourning, a requiem at Saint-Sulpice attended by heads of state and government from some 175 delegations, a nationwide minute of silence; Lebanon and Andorra declared mourning of their own. He was buried at Montparnasse beside his daughter Laurence. Within a few years of leaving office, polls had already made him France's most admired political figure — a warm nostalgia that risks flattening the record.
+
+That record refuses to be flattened. The durable acts are real: the Vél d'Hiv speech permanently changed how the French state remembers Vichy, the Iraq refusal became a touchstone of national independence, and the quai Branly stands as his one monument. So is the stain: the conviction, the "noise and the smell," the Françafrique friendships with dictators he never disowned, and a twelve-year presidency historians find short on structural reform. The tidy verdict — crook or statesman, opportunist or man of conscience — is the one thing his life will not support.
+
+Perhaps the truest reading is the French one: they convicted him and they loved him, and both verdicts were about the same qualities. The bulldozer who would cut down any tree in his path was also the president who, weeks into the office he had chased for twenty years, chose to say the hardest true thing about his own country. He contained the opportunist and the man of conscience at once, and his countrymen, who knew him best, declined to choose between them.
+
+## Sources
+
+1. Élysée (French Presidency) — official Jacques Chirac biography and chronology (elysee.fr/jacques-chirac)
+2. Élysée archives — full text of the Vél d'Hiv speech, 16 July 1995 (elysee.fr)
+3. The New York Times — "Jacques Chirac, French President Who Championed European Identity, Is Dead at 86" (26 September 2019)
+4. The Guardian — Jacques Chirac obituary, Stephen Jessel (26 September 2019)
+5. BBC News — "French ex-President Jacques Chirac guilty of corruption" (15 December 2011)
+6. Franz-Olivier Giesbert — *La Tragédie du président* (Flammarion, 2006)
+7. Henry Rousso — *The Vichy Syndrome* (Harvard University Press, 1991), for the context the 1995 speech overturned
