@@ -3,7 +3,7 @@ title = "Léon Foucault"
 lifespan = "1819-1868"
 date = "2026-07-20"
 draft = false
-summary = "The academy called him a clever mechanic, not a scientist. His pendulum has been quietly proving them wrong for 170 years."
+summary = "The academy called him a clever mechanic, not a scientist. His pendulum has been quietly proving them wrong for 175 years."
 image = "/img/biographies/foucault-leon.png"
 +++
 
