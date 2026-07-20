@@ -38,7 +38,7 @@
         {{ .Title }}
       </div>
       <p class="bio-muted text-sm leading-relaxed">
-        {{ substr .Summary 0 130 | plainify | htmlUnescape }}...
+        {{ .Summary | plainify | htmlUnescape | truncate 180 }}
       </p>
     </a>
     {{ if or $bite $nibble }}

@@ -3,7 +3,7 @@ title = "John Nash"
 lifespan = "1928-2015"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of John Nash: a 27-page thesis that reshaped economics, thirty years lost to schizophrenia, and a return no one can explain."
+summary = "Genius, madness, and an unexplained return — John Nash's whole impossible arc in four paragraphs."
 image = "/img/biographies/nash-john.png"
 +++
 

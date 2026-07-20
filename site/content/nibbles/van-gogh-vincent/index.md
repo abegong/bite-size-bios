@@ -3,7 +3,7 @@ title = "Vincent van Gogh"
 lifespan = "1853-1890"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Vincent van Gogh, the failed preacher who sold one painting in his life and transformed modern art."
+summary = "Ten years of work, one sale, and a legacy that changed art forever — the essential Van Gogh."
 image = "/img/biographies/van-gogh-vincent.png"
 +++
 

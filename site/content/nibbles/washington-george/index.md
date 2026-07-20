@@ -3,7 +3,7 @@ title = "George Washington"
 lifespan = "1732-1799"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of George Washington, the general whose greatest acts were giving power back — twice."
+summary = "He won a war and walked away, won the presidency and walked away again. The habit that built a republic."
 image = "/img/biographies/washington-george.png"
 +++
 

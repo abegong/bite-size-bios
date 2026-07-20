@@ -23,13 +23,13 @@ title = "Thomas Edison"
 lifespan = "1847-1931"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of ..."
+summary = "Before him, invention was a lone tinkerer's game; after his laboratories, it was an industry."
 image = "/img/biographies/thomas-edison.png"
 +++
 ```
 
 - `title`, `lifespan`, and `image` should match the bite exactly.
-- `summary` is 40–180 characters and should read differently from the bite's summary.
+- `summary` is 40–180 characters, shown in full on the opening page. Follow the Card Summary rules in `research/skills/write-bio.md`: no stock openers ("A nibble-size portrait of...", "The story of..."), don't re-introduce the name, and take a different angle from the bite's summary — not a rewording of it.
 - No `tags`, `categories`, or `archives` — the bite is the canonical taxonomy entry for the person.
 
 ---

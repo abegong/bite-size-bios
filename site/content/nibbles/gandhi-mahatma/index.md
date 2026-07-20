@@ -3,7 +3,7 @@ title = "Mahatma Gandhi"
 lifespan = "1869-1948"
 date = "2026-07-20"
 draft = false
-summary = "A nibble-size portrait of Mahatma Gandhi, who took on the greatest empire in history armed only with truth-force."
+summary = "The empire had armies. He had truth-force. The short arc of how nonviolence won."
 image = "/img/biographies/gandhi.jpg"
 +++
 

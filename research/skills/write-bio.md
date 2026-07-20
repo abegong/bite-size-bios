@@ -102,6 +102,18 @@ Use this as the story structure, not as literal section titles. Published headin
 
 ---
 
+## Card Summary
+
+The front matter `summary` (40–180 characters) is the card copy on the opening page. It is shown in full, so every character is visible — write it as a pitch, not a label:
+
+- The card already shows the person's name and portrait. Don't spend characters re-introducing them, and never open with stock phrases like "A narrative biography of," "The story of," or "The life of."
+- Lead with the life's central tension, a striking fact, a reversal, or a question.
+- Vary the shape: check the summaries of neighboring published bios and don't reuse their opening move.
+- Only use facts and framings that appear in the article itself.
+- The bite's and nibble's summaries for the same person must take different angles, not reword each other.
+
+---
+
 ## Notes
 
 - Write for a curious general reader — not an academic specialist
